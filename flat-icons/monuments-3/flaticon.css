@@ -1,0 +1,316 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-aqueduct:before {
+	content: "\e000";
+}
+.flaticon-athens2:before {
+	content: "\e001";
+}
+.flaticon-badshahi1:before {
+	content: "\e002";
+}
+.flaticon-bagan:before {
+	content: "\e003";
+}
+.flaticon-baghdad:before {
+	content: "\e004";
+}
+.flaticon-bangkok1:before {
+	content: "\e005";
+}
+.flaticon-beijing:before {
+	content: "\e006";
+}
+.flaticon-big ben:before {
+	content: "\e007";
+}
+.flaticon-boston1:before {
+	content: "\e008";
+}
+.flaticon-bridge5:before {
+	content: "\e009";
+}
+.flaticon-brussels1:before {
+	content: "\e00a";
+}
+.flaticon-buenos aires:before {
+	content: "\e00b";
+}
+.flaticon-cairo1:before {
+	content: "\e00c";
+}
+.flaticon-california:before {
+	content: "\e00d";
+}
+.flaticon-capitol:before {
+	content: "\e00e";
+}
+.flaticon-cartagena :before {
+	content: "\e00f";
+}
+.flaticon-casablanca:before {
+	content: "\e010";
+}
+.flaticon-castle14:before {
+	content: "\e011";
+}
+.flaticon-chartres1:before {
+	content: "\e012";
+}
+.flaticon-chiang:before {
+	content: "\e013";
+}
+.flaticon-christ3:before {
+	content: "\e014";
+}
+.flaticon-clock113:before {
+	content: "\e015";
+}
+.flaticon-corinto:before {
+	content: "\e016";
+}
+.flaticon-disney:before {
+	content: "\e017";
+}
+.flaticon-dubai1:before {
+	content: "\e018";
+}
+.flaticon-easter island:before {
+	content: "\e019";
+}
+.flaticon-ejer baunehoj:before {
+	content: "\e01a";
+}
+.flaticon-galata1:before {
+	content: "\e01b";
+}
+.flaticon-garnier:before {
+	content: "\e01c";
+}
+.flaticon-gateway2:before {
+	content: "\e01d";
+}
+.flaticon-germany1:before {
+	content: "\e01e";
+}
+.flaticon-giralda:before {
+	content: "\e01f";
+}
+.flaticon-great12:before {
+	content: "\e020";
+}
+.flaticon-great13:before {
+	content: "\e021";
+}
+.flaticon-hall1:before {
+	content: "\e022";
+}
+.flaticon-holsten:before {
+	content: "\e023";
+}
+.flaticon-holy family:before {
+	content: "\e024";
+}
+.flaticon-id kah:before {
+	content: "\e025";
+}
+.flaticon-istanbul1:before {
+	content: "\e026";
+}
+.flaticon-jakarta:before {
+	content: "\e027";
+}
+.flaticon-japan63:before {
+	content: "\e028";
+}
+.flaticon-jerusalen:before {
+	content: "\e029";
+}
+.flaticon-liberty2:before {
+	content: "\e02a";
+}
+.flaticon-lisbom:before {
+	content: "\e02b";
+}
+.flaticon-london 1:before {
+	content: "\e02c";
+}
+.flaticon-london eye:before {
+	content: "\e02d";
+}
+.flaticon-louvre1:before {
+	content: "\e02e";
+}
+.flaticon-madrid 1:before {
+	content: "\e02f";
+}
+.flaticon-medieval2:before {
+	content: "\e030";
+}
+.flaticon-milan:before {
+	content: "\e031";
+}
+.flaticon-ming2:before {
+	content: "\e032";
+}
+.flaticon-mole2:before {
+	content: "\e033";
+}
+.flaticon-monas1:before {
+	content: "\e034";
+}
+.flaticon-morelia1:before {
+	content: "\e035";
+}
+.flaticon-mosque7:before {
+	content: "\e036";
+}
+.flaticon-mostar :before {
+	content: "\e037";
+}
+.flaticon-nanjing1:before {
+	content: "\e038";
+}
+.flaticon-national6:before {
+	content: "\e039";
+}
+.flaticon-netherlands3:before {
+	content: "\e03a";
+}
+.flaticon-new york1:before {
+	content: "\e03b";
+}
+.flaticon-new york:before {
+	content: "\e03c";
+}
+.flaticon-notre dame:before {
+	content: "\e03d";
+}
+.flaticon-nubia :before {
+	content: "\e03e";
+}
+.flaticon-oia:before {
+	content: "\e03f";
+}
+.flaticon-paris 1:before {
+	content: "\e040";
+}
+.flaticon-paris2:before {
+	content: "\e041";
+}
+.flaticon-paris3:before {
+	content: "\e042";
+}
+.flaticon-parthenon:before {
+	content: "\e043";
+}
+.flaticon-pisa2:before {
+	content: "\e044";
+}
+.flaticon-pula arena:before {
+	content: "\e045";
+}
+.flaticon-quezon:before {
+	content: "\e046";
+}
+.flaticon-quinta1:before {
+	content: "\e047";
+}
+.flaticon-qutb minar:before {
+	content: "\e048";
+}
+.flaticon-retiro1:before {
+	content: "\e049";
+}
+.flaticon-reykjavik:before {
+	content: "\e04a";
+}
+.flaticon-roman1:before {
+	content: "\e04b";
+}
+.flaticon-rome 1:before {
+	content: "\e04c";
+}
+.flaticon-santa fe:before {
+	content: "\e04d";
+}
+.flaticon-shrine1:before {
+	content: "\e04e";
+}
+.flaticon-siem reap:before {
+	content: "\e04f";
+}
+.flaticon-smeaton:before {
+	content: "\e050";
+}
+.flaticon-space42:before {
+	content: "\e051";
+}
+.flaticon-spain1:before {
+	content: "\e052";
+}
+.flaticon-split point:before {
+	content: "\e053";
+}
+.flaticon-sydney 1:before {
+	content: "\e054";
+}
+.flaticon-taj mahal:before {
+	content: "\e055";
+}
+.flaticon-temple11:before {
+	content: "\e056";
+}
+.flaticon-temple12:before {
+	content: "\e057";
+}
+.flaticon-teotihuacan:before {
+	content: "\e058";
+}
+.flaticon-tomb4:before {
+	content: "\e059";
+}
+.flaticon-torii3:before {
+	content: "\e05a";
+}
+.flaticon-tower23:before {
+	content: "\e05b";
+}
+.flaticon-tower24:before {
+	content: "\e05c";
+}
+.flaticon-tower25:before {
+	content: "\e05d";
+}
+.flaticon-tower26:before {
+	content: "\e05e";
+}
+.flaticon-tower27:before {
+	content: "\e05f";
+}
+.flaticon-washington2:before {
+	content: "\e060";
+}
+.flaticon-white house:before {
+	content: "\e061";
+}
+.flaticon-yucatan:before {
+	content: "\e062";
+}
+.flaticon-zaragoza:before {
+	content: "\e063";
+}

@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-active2"></div>
+		<div class="class-name">.flaticon-active2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/active-volcano-inside-a-rounded-square_27984">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane42"></div>
+		<div class="class-name">.flaticon-airplane42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-silhouette-on-square-background_27812">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane43"></div>
+		<div class="class-name">.flaticon-airplane43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-silhouette-bottom-view-with-cross-mark_27885">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane44"></div>
+		<div class="class-name">.flaticon-airplane44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-with-check-mark_27901">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-anchor20"></div>
+		<div class="class-name">.flaticon-anchor20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/anchor-symbol-with-cross-mark_27874">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-anchor21"></div>
+		<div class="class-name">.flaticon-anchor21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/anchor-black-shape_27969">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-antelope"></div>
+		<div class="class-name">.flaticon-antelope</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/antelope-side-view-silhouette_27762">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-approve7"></div>
+		<div class="class-name">.flaticon-approve7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/approve-sign-in-a-black-rounded-square-shape_27972">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ascendant3"></div>
+		<div class="class-name">.flaticon-ascendant3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ascendant-temperature-symbol-for-weather-inside-a-rounded-square_27934">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-baby22"></div>
+		<div class="class-name">.flaticon-baby22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/baby-feeding-bottle-symbol_27827">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-baby23"></div>
+		<div class="class-name">.flaticon-baby23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/baby-with-diaper_27888">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-balance3"></div>
+		<div class="class-name">.flaticon-balance3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/balance-scale-of-justice_27802">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-base1"></div>
+		<div class="class-name">.flaticon-base1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/base-with-flag_27739">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-biohazard"></div>
+		<div class="class-name">.flaticon-biohazard</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/biohazard-symbol-on-square-background_27903">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-biological1"></div>
+		<div class="class-name">.flaticon-biological1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/biological-hazard-symbol_27894">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-birthrate"></div>
+		<div class="class-name">.flaticon-birthrate</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/birthrate-index_27974">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-black189"></div>
+		<div class="class-name">.flaticon-black189</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/black-cloud-with-rain_27821">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-book100"></div>
+		<div class="class-name">.flaticon-book100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/book-opened-with-an-approval-sign-on-it-in-a-rounded-square_27957">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bucket5"></div>
+		<div class="class-name">.flaticon-bucket5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bucket-symbol_27711">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bucket6"></div>
+		<div class="class-name">.flaticon-bucket6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bucket-symbol_27809">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-budding"></div>
+		<div class="class-name">.flaticon-budding</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/budding-leaves_27725">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bug7"></div>
+		<div class="class-name">.flaticon-bug7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bug-with-white-details_27736">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-building14"></div>
+		<div class="class-name">.flaticon-building14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/building-symbol_27749">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-building15"></div>
+		<div class="class-name">.flaticon-building15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/building-with-dome-and-flag_27829">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-building16"></div>
+		<div class="class-name">.flaticon-building16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/building-h-with-roof-and-flag_27842">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-building17"></div>
+		<div class="class-name">.flaticon-building17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/building-with-minus-sign-in-a-rounded-square_27935">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business31"></div>
+		<div class="class-name">.flaticon-business31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-hierarchy_27852">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business32"></div>
+		<div class="class-name">.flaticon-business32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-improving_27962">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-caduceus1"></div>
+		<div class="class-name">.flaticon-caduceus1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/caduceus-medical-symbol_27786">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-calculator31"></div>
+		<div class="class-name">.flaticon-calculator31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/calculator-or-cover-silhouette-of-black-rectangular-rounded-shape_27931">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-camera49"></div>
+		<div class="class-name">.flaticon-camera49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/camera-with-external-flash_27891">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-camera50"></div>
+		<div class="class-name">.flaticon-camera50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/camera-of-reporter_27973">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-captains2"></div>
+		<div class="class-name">.flaticon-captains2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/captains-wheel-symbol-on-square-background_27735">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-car76"></div>
+		<div class="class-name">.flaticon-car76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/car-crossing-a-bridge-with-minus-sign_27801">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-car77"></div>
+		<div class="class-name">.flaticon-car77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/car-crossing-bridge-with-cross-mark_27817">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-car78"></div>
+		<div class="class-name">.flaticon-car78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/car-crossing-a-bridge-with-cross-mark_27861">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cargo8"></div>
+		<div class="class-name">.flaticon-cargo8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cargo-ship-at-sea-front-view_27883">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cement"></div>
+		<div class="class-name">.flaticon-cement</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cement-mixing_27771">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle41"></div>
+		<div class="class-name">.flaticon-circle41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-of-four-arrows_27937">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular68"></div>
+		<div class="class-name">.flaticon-circular68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-cross-sign_27712">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-city10"></div>
+		<div class="class-name">.flaticon-city10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/city-buildings-over-mountains_27761">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-city11"></div>
+		<div class="class-name">.flaticon-city11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/city-building-with-cross-mark_27792">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-city12"></div>
+		<div class="class-name">.flaticon-city12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/city-buildings-view_27878">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-civilian"></div>
+		<div class="class-name">.flaticon-civilian</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/civilian-airplane-black-silhouette-with-a-minus-sign_27946">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-clipboard37"></div>
+		<div class="class-name">.flaticon-clipboard37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/clipboard-with-check-and-cross-mark_27811">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloud109"></div>
+		<div class="class-name">.flaticon-cloud109</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloud-and-lightning-bolt-symbol_27905">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloud110"></div>
+		<div class="class-name">.flaticon-cloud110</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloud-with-rain_27921">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-commercial10"></div>
+		<div class="class-name">.flaticon-commercial10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/commercial-airplane-symbol-with-check-mark_27857">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-commercial11"></div>
+		<div class="class-name">.flaticon-commercial11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/commercial-aeroplane-bottom-view_27913">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-condenser10"></div>
+		<div class="class-name">.flaticon-condenser10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/condenser-microphone-recording_27890">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cooking7"></div>
+		<div class="class-name">.flaticon-cooking7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cooking-stove-with-heat_27920">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cricket1"></div>
+		<div class="class-name">.flaticon-cricket1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cricket-silhouette_27945">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross46"></div>
+		<div class="class-name">.flaticon-cross46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-symbol_27760">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross47"></div>
+		<div class="class-name">.flaticon-cross47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-mark-on-black-circle-background_27807">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross48"></div>
+		<div class="class-name">.flaticon-cross48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-mark-with-circle-border_27816">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cross49"></div>
+		<div class="class-name">.flaticon-cross49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cross-on-a-podium_27952">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cruise6"></div>
+		<div class="class-name">.flaticon-cruise6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cruise-ship-front-view_27763">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-daily"></div>
+		<div class="class-name">.flaticon-daily</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/daily-calendar-page-in-day-19_27933">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delivery10"></div>
+		<div class="class-name">.flaticon-delivery10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delivery-truck-with-c-sign_27796">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delivery9"></div>
+		<div class="class-name">.flaticon-delivery9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delivery-truck-with-arrow-to-the-right_27776">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop15"></div>
+		<div class="class-name">.flaticon-desktop15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-detecting-signal_27742">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop16"></div>
+		<div class="class-name">.flaticon-desktop16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-on-black-square-background_27862">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop17"></div>
+		<div class="class-name">.flaticon-desktop17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-screen-variant_27916">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dice8"></div>
+		<div class="class-name">.flaticon-dice8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dice-with-five-dots_27863">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-document59"></div>
+		<div class="class-name">.flaticon-document59</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/document-with-fold-on-upper-right_27729">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dollar84"></div>
+		<div class="class-name">.flaticon-dollar84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dollar-money-sack_27756">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dollar85"></div>
+		<div class="class-name">.flaticon-dollar85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dollar-symbol-in-a-rounded-square_27959">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-door11"></div>
+		<div class="class-name">.flaticon-door11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/door-variant_27775">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-email24"></div>
+		<div class="class-name">.flaticon-email24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/email-open-envelope-in-a-rounded-square_27958">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-exploding"></div>
+		<div class="class-name">.flaticon-exploding</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/exploding_27971">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-falling2"></div>
+		<div class="class-name">.flaticon-falling2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/falling-debris-symbol_27722">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-falling3"></div>
+		<div class="class-name">.flaticon-falling3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/falling-rocks_27948">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family10"></div>
+		<div class="class-name">.flaticon-family10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-of-three-in-a-home_27859">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family7"></div>
+		<div class="class-name">.flaticon-family7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-inside-a-house_27758">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family8"></div>
+		<div class="class-name">.flaticon-family8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-with-rising-arrow_27769">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family9"></div>
+		<div class="class-name">.flaticon-family9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-van-side-view_27814">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-female103"></div>
+		<div class="class-name">.flaticon-female103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/female-with-dress-silhouette_27868">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fire19"></div>
+		<div class="class-name">.flaticon-fire19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fire-flames-silhouette_27813">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fish12"></div>
+		<div class="class-name">.flaticon-fish12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fish-symbol_27727">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fish13"></div>
+		<div class="class-name">.flaticon-fish13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fish-silhouette_27847">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-five6"></div>
+		<div class="class-name">.flaticon-five6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/five-dots-like-a-dice_27922">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flames"></div>
+		<div class="class-name">.flaticon-flames</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flames-on-a-burning-house_27757">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folded17"></div>
+		<div class="class-name">.flaticon-folded17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folded-document_27824">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-food14"></div>
+		<div class="class-name">.flaticon-food14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/food-full-bowl_27944">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fuel4"></div>
+		<div class="class-name">.flaticon-fuel4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fuel-station-pump_27746">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-gallon"></div>
+		<div class="class-name">.flaticon-gallon</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/gallon-container_27717">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-glass10"></div>
+		<div class="class-name">.flaticon-glass10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/glass-with-water_27724">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-graduate4"></div>
+		<div class="class-name">.flaticon-graduate4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/graduate-student_27970">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-grain"></div>
+		<div class="class-name">.flaticon-grain</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/grain-plant-on-square-background_27879">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-group44"></div>
+		<div class="class-name">.flaticon-group44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/group-of-people-in-a-formation_27825">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hammer26"></div>
+		<div class="class-name">.flaticon-hammer26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hammer-with-bricks_27917">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-helicopter15"></div>
+		<div class="class-name">.flaticon-helicopter15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/helicopter-landing-on-helipad_27765">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-helicopter16"></div>
+		<div class="class-name">.flaticon-helicopter16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/helicopter-variant-side-view_27887">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-helicopter17"></div>
+		<div class="class-name">.flaticon-helicopter17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/helicopter-side-view-inside-a-rounded-square_27924">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-home80"></div>
+		<div class="class-name">.flaticon-home80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/home-silhouette-on-black-square-background_27754">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hotel22"></div>
+		<div class="class-name">.flaticon-hotel22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hotel-signal-in-rounded-square_27938">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house51"></div>
+		<div class="class-name">.flaticon-house51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-with-cross-mark_27744">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house52"></div>
+		<div class="class-name">.flaticon-house52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-symbol-with-minus-sign_27766">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house53"></div>
+		<div class="class-name">.flaticon-house53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-symbol-with-minus-sign_27783">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house54"></div>
+		<div class="class-name">.flaticon-house54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-on-square-black-background_27843">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house55"></div>
+		<div class="class-name">.flaticon-house55</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-structure-silhouette_27881">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house56"></div>
+		<div class="class-name">.flaticon-house56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-on-square-background-with-check-mark_27896">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house57"></div>
+		<div class="class-name">.flaticon-house57</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-silhouette-with-check-mark_27900">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house58"></div>
+		<div class="class-name">.flaticon-house58</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-black-building-shape_27926">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-increasing7"></div>
+		<div class="class-name">.flaticon-increasing7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/increasing-temperature_27733">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-infrastructure"></div>
+		<div class="class-name">.flaticon-infrastructure</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/infrastructure-on-square-background-with-check-mark_27880">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-islam1"></div>
+		<div class="class-name">.flaticon-islam1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/islam-star-and-crescent_27876">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-justice"></div>
+		<div class="class-name">.flaticon-justice</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/justice-symbol_27830">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kids"></div>
+		<div class="class-name">.flaticon-kids</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kids-couple_27985">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kitchen16"></div>
+		<div class="class-name">.flaticon-kitchen16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kitchen-utensils_27907">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lantern12"></div>
+		<div class="class-name">.flaticon-lantern12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lantern-flag-variant_27768">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-life3"></div>
+		<div class="class-name">.flaticon-life3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/life-line-reading_27803">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lifeline"></div>
+		<div class="class-name">.flaticon-lifeline</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lifeline-symbol_27856">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male103"></div>
+		<div class="class-name">.flaticon-male103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-cartoon-pointing-to-white-board_27759">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male104"></div>
+		<div class="class-name">.flaticon-male104</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-with-armalite-gun_27773">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male105"></div>
+		<div class="class-name">.flaticon-male105</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-standing-beside-a-question-mark_27794">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male106"></div>
+		<div class="class-name">.flaticon-male106</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-holding-armalite-gun_27795">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male107"></div>
+		<div class="class-name">.flaticon-male107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-cartoon-on-wheel-chair_27831">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man152"></div>
+		<div class="class-name">.flaticon-man152</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-directed-to-the-right_27753">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man153"></div>
+		<div class="class-name">.flaticon-man153</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-walking-towards-right-direction_27818">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-map27"></div>
+		<div class="class-name">.flaticon-map27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/map-marker_27947">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-medical15"></div>
+		<div class="class-name">.flaticon-medical15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/medical-pill_27953">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mine"></div>
+		<div class="class-name">.flaticon-mine</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mine-symbol_27983">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mobile32"></div>
+		<div class="class-name">.flaticon-mobile32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mobile-phone-with-signal-sign_27790">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mobile33"></div>
+		<div class="class-name">.flaticon-mobile33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mobile-phone-with-signal-coverage_27815">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mountain13"></div>
+		<div class="class-name">.flaticon-mountain13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mountain-summit_27798">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-negative10"></div>
+		<div class="class-name">.flaticon-negative10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/negative-sign_27732">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-numbering"></div>
+		<div class="class-name">.flaticon-numbering</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/numbering-signs_27979">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-observation4"></div>
+		<div class="class-name">.flaticon-observation4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/observation-tower_27819">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ok4"></div>
+		<div class="class-name">.flaticon-ok4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ok-appproval-acceptance_27964">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-om2"></div>
+		<div class="class-name">.flaticon-om2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/om-symbol-on-a-podium_27968">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-one16"></div>
+		<div class="class-name">.flaticon-one16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/one-man-shouting-to-another-man_27911">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open103"></div>
+		<div class="class-name">.flaticon-open103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-light-bulb_27720">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open104"></div>
+		<div class="class-name">.flaticon-open104</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-book-with-minus-sign_27741">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open105"></div>
+		<div class="class-name">.flaticon-open105</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-faucet-with-water-droplet_27743">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open106"></div>
+		<div class="class-name">.flaticon-open106</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-book-with-roof_27752">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open107"></div>
+		<div class="class-name">.flaticon-open107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-book-reading-sign-with-check-mark_27785">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open108"></div>
+		<div class="class-name">.flaticon-open108</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-box-with-chevron-symbol_27800">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open109"></div>
+		<div class="class-name">.flaticon-open109</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-hands-holding-a-circle_27805">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-overlapping8"></div>
+		<div class="class-name">.flaticon-overlapping8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/overlapping-black-and-white-folders_27734">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-passenger2"></div>
+		<div class="class-name">.flaticon-passenger2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/passenger-train-front-view_27772">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-passengers1"></div>
+		<div class="class-name">.flaticon-passengers1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/passengers-airplane-top-view-with-a-minus-sign-in-a-rounded-square_27967">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pathway"></div>
+		<div class="class-name">.flaticon-pathway</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pathway-to-tunnel_27823">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pen24"></div>
+		<div class="class-name">.flaticon-pen24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pen-on-papers_27981">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pencil34"></div>
+		<div class="class-name">.flaticon-pencil34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pencil-writing-on-a-paper-sheet_27936">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-person193"></div>
+		<div class="class-name">.flaticon-person193</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/person-lying-on-bed-inside-a-home_27793">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-person194"></div>
+		<div class="class-name">.flaticon-person194</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/person-eating-soup-with-a-spoon-in-a-rounded-square_27951">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-photo34"></div>
+		<div class="class-name">.flaticon-photo34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/photo-camera_27950">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-place1"></div>
+		<div class="class-name">.flaticon-place1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/place-holder-symbol-on-a-square-background_27870">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-plant18"></div>
+		<div class="class-name">.flaticon-plant18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/plant-bud-from-the-ground_27838">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-police20"></div>
+		<div class="class-name">.flaticon-police20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/police-walkie-talkie-with-white-lines_27721">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-policeman3"></div>
+		<div class="class-name">.flaticon-policeman3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/policeman-cuffs_27748">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-portable2"></div>
+		<div class="class-name">.flaticon-portable2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/portable-toilet-doors_27889">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pregnant1"></div>
+		<div class="class-name">.flaticon-pregnant1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pregnant-woman_27925">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pregnant2"></div>
+		<div class="class-name">.flaticon-pregnant2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pregnant-woman-with-a-heart-in-her-belly_27960">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-printer38"></div>
+		<div class="class-name">.flaticon-printer38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/printer-variant-and-paper_27854">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-radio28"></div>
+		<div class="class-name">.flaticon-radio28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/radio_27927">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-radioactive5"></div>
+		<div class="class-name">.flaticon-radioactive5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/radioactive-waste_27966">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-railroad2"></div>
+		<div class="class-name">.flaticon-railroad2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/railroad-and-train-front-view_27806">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-raise2"></div>
+		<div class="class-name">.flaticon-raise2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/raise-curtains_27858">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rectangular37"></div>
+		<div class="class-name">.flaticon-rectangular37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rectangular-shape-with-rectangular-hole_27866">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-right35"></div>
+		<div class="class-name">.flaticon-right35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/right-arrow-pointing-to-buildings_27832">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-round47"></div>
+		<div class="class-name">.flaticon-round47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/round-neck-shirt_27884">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-route6"></div>
+		<div class="class-name">.flaticon-route6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/route-perspective-with-a-cross-sign_27940">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-salt4"></div>
+		<div class="class-name">.flaticon-salt4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/salt-shaker-container_27851">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-school25"></div>
+		<div class="class-name">.flaticon-school25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/school-bus-side-view-sign_27778">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sea2"></div>
+		<div class="class-name">.flaticon-sea2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sea-waves_27723">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sea4"></div>
+		<div class="class-name">.flaticon-sea4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sea-water-with-arrow-directing-to-cup_27848">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sea5"></div>
+		<div class="class-name">.flaticon-sea5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sea-waves-variant_27918">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-search21"></div>
+		<div class="class-name">.flaticon-search21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/search-files_27965">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching18"></div>
+		<div class="class-name">.flaticon-searching18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-through-files_27788">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-security14"></div>
+		<div class="class-name">.flaticon-security14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/security-guard-symbol_27713">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-security15"></div>
+		<div class="class-name">.flaticon-security15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/security-official-slightly-raising-arm_27867">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-semicircles"></div>
+		<div class="class-name">.flaticon-semicircles</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/semicircles-with-space-in-the-middle_27787">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ship7"></div>
+		<div class="class-name">.flaticon-ship7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ship-anchor-with-check-mark_27836">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ship8"></div>
+		<div class="class-name">.flaticon-ship8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ship-anchor-with-cross-mark_27864">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ship9"></div>
+		<div class="class-name">.flaticon-ship9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ship-anchor-symbol-with-check-mark_27919">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-shower5"></div>
+		<div class="class-name">.flaticon-shower5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/shower-with-water-droplets_27797">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sitting6"></div>
+		<div class="class-name">.flaticon-sitting6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sitting-man-with-crutches_27714">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-skull8"></div>
+		<div class="class-name">.flaticon-skull8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/skull-and-bones-symbol_27718">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-skull9"></div>
+		<div class="class-name">.flaticon-skull9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/skull-on-top-of-a-cross-of-bones-in-a-rounded-square_27943">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-snow19"></div>
+		<div class="class-name">.flaticon-snow19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/snow-avalanche-warning_27904">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-soap1"></div>
+		<div class="class-name">.flaticon-soap1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/soap-with-suds-and-bubbles_27849">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-soap"></div>
+		<div class="class-name">.flaticon-soap</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/soap-with-bubbles-silhouette_27751">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-softdrinks1"></div>
+		<div class="class-name">.flaticon-softdrinks1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/softdrinks-bottle-silhouette_27892">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-soldier1"></div>
+		<div class="class-name">.flaticon-soldier1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/soldier-salute_27963">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-soldier"></div>
+		<div class="class-name">.flaticon-soldier</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/soldier-with-gun-saluting-a-man_27910">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech62"></div>
+		<div class="class-name">.flaticon-speech62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-bubbles-on-square-background_27978">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speed5"></div>
+		<div class="class-name">.flaticon-speed5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speed-boat-side-view-silhouette_27839">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square67"></div>
+		<div class="class-name">.flaticon-square67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-outline-with-small-rectangles_27837">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square68"></div>
+		<div class="class-name">.flaticon-square68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-boxes-stack_27886">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stack12"></div>
+		<div class="class-name">.flaticon-stack12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stack-of-squares_27845">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing51"></div>
+		<div class="class-name">.flaticon-standing51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-female-wearing-dress_27730">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-star72"></div>
+		<div class="class-name">.flaticon-star72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/star-blade-on-square-background_27865">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-star73"></div>
+		<div class="class-name">.flaticon-star73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/star-of-irregular-shape-of-an-explosion-in-a-rounded-square_27955">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-statistics2"></div>
+		<div class="class-name">.flaticon-statistics2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/statistics-report-for-business_27799">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-student3"></div>
+		<div class="class-name">.flaticon-student3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/student-carrying-his-bag-in-a-rounded-square_27954">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-submersible"></div>
+		<div class="class-name">.flaticon-submersible</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/submersible-pump_27980">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-surprised4"></div>
+		<div class="class-name">.flaticon-surprised4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/surprised-male-cartoon-variant_27750">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-syringe7"></div>
+		<div class="class-name">.flaticon-syringe7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/syringe-with-medication-beside-drug-container_27908">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-syringe8"></div>
+		<div class="class-name">.flaticon-syringe8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/syringe-and-pills-container-in-a-rounded-square_27941">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-table22"></div>
+		<div class="class-name">.flaticon-table22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/table_27932">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tall11"></div>
+		<div class="class-name">.flaticon-tall11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tall-city-building_27841">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tall12"></div>
+		<div class="class-name">.flaticon-tall12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tall-human-silhouette_27914">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-temperature8"></div>
+		<div class="class-name">.flaticon-temperature8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/temperature-drop_27923">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tent5"></div>
+		<div class="class-name">.flaticon-tent5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tent-symbol-with-small-square-shapes_27909">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-thief1"></div>
+		<div class="class-name">.flaticon-thief1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/thief-robbing-a-man-raising-hands_27840">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-three63"></div>
+		<div class="class-name">.flaticon-three63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/three-crosses-in-the-middle-of-two-parallel-lines_27929">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tick6"></div>
+		<div class="class-name">.flaticon-tick6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tick-box-with-check-mark_27810">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tissue1"></div>
+		<div class="class-name">.flaticon-tissue1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tissue-roll-outline_27846">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tissue2"></div>
+		<div class="class-name">.flaticon-tissue2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tissue-roll-outline-on-black-square-background_27882">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-toxic3"></div>
+		<div class="class-name">.flaticon-toxic3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/toxic-substance-container-spilling_27895">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tribal1"></div>
+		<div class="class-name">.flaticon-tribal1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tribal-tent-with-small-triangles_27853">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tribal2"></div>
+		<div class="class-name">.flaticon-tribal2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tribal-tent-with-spear_27898">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tribal"></div>
+		<div class="class-name">.flaticon-tribal</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tribal-tent_27747">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tribe"></div>
+		<div class="class-name">.flaticon-tribe</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tribe-tent-with-small-square-shapes_27893">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-triple11"></div>
+		<div class="class-name">.flaticon-triple11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/triple-cross-marks-between-horizontal-lines_27789">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-truck16"></div>
+		<div class="class-name">.flaticon-truck16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/truck-side-view_27906">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-truck17"></div>
+		<div class="class-name">.flaticon-truck17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/truck-accident_27982">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tunnel2"></div>
+		<div class="class-name">.flaticon-tunnel2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tunnel-pathway-symbol_27770">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-united5"></div>
+		<div class="class-name">.flaticon-united5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/united-family-symbol_27715">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-united6"></div>
+		<div class="class-name">.flaticon-united6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/united-nations-volunteer-helmet_27738">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-united7"></div>
+		<div class="class-name">.flaticon-united7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/united-nations-headquarters_27745">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-up24"></div>
+		<div class="class-name">.flaticon-up24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/up-and-down-arrows-on-the-road_27716">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-up25"></div>
+		<div class="class-name">.flaticon-up25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/up-and-down-arrows-and-broken-lines_27774">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-various1"></div>
+		<div class="class-name">.flaticon-various1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/various-lines_27844">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-vintage41"></div>
+		<div class="class-name">.flaticon-vintage41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/vintage-car-front-view-with-spike-balloon_27873">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-vintage42"></div>
+		<div class="class-name">.flaticon-vintage42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/vintage-car-crossing-the-bridge_27915">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-volume37"></div>
+		<div class="class-name">.flaticon-volume37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/volume-vertical-black-bars-group_27956">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-walking4"></div>
+		<div class="class-name">.flaticon-walking4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/walking-man-with-reverse-arrow_27828">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-walking5"></div>
+		<div class="class-name">.flaticon-walking5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/walking-man-with-reversed-arrow_27875">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-waste3"></div>
+		<div class="class-name">.flaticon-waste3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/waste-can-full-of-trash_27872">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-water23"></div>
+		<div class="class-name">.flaticon-water23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/water-dam-rising_27767">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-water24"></div>
+		<div class="class-name">.flaticon-water24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/water-dam-uprising_27780">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-water25"></div>
+		<div class="class-name">.flaticon-water25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/water-with-arrow-to-the-drinking-cup_27897">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-water26"></div>
+		<div class="class-name">.flaticon-water26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/water-scarcity-concept_27949">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wheat10"></div>
+		<div class="class-name">.flaticon-wheat10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wheat-grain-close-up_27834">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wheat8"></div>
+		<div class="class-name">.flaticon-wheat8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wheat-grains-on-a-bowl_27737">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wheat9"></div>
+		<div class="class-name">.flaticon-wheat9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wheat-grain-bag_27833">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wrench30"></div>
+		<div class="class-name">.flaticon-wrench30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wrench-and-nut_27869">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-writing10"></div>
+		<div class="class-name">.flaticon-writing10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/writing-on-paper-symbol_27808">OCHA</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-writing11"></div>
+		<div class="class-name">.flaticon-writing11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/writing-on-an-open-book_27871">OCHA</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.unocha.org">OCHA</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.unocha.org&quot;&gt;OCHA&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-active2&quot;&gt;&lt;/i&gt; <i class="flaticon-active2"></i></p><p>&lt;i class=&quot;flaticon-airplane42&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane42"></i></p><p>&lt;i class=&quot;flaticon-airplane43&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane43"></i></p><p>&lt;i class=&quot;flaticon-airplane44&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane44"></i></p><p>&lt;i class=&quot;flaticon-anchor20&quot;&gt;&lt;/i&gt; <i class="flaticon-anchor20"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-anchor21&quot;&gt;&lt;/span&gt; <span class="flaticon-anchor21"></span></p><p>&lt;span class=&quot;flaticon-antelope&quot;&gt;&lt;/span&gt; <span class="flaticon-antelope"></span></p><p>&lt;span class=&quot;flaticon-approve7&quot;&gt;&lt;/span&gt; <span class="flaticon-approve7"></span></p><p>&lt;span class=&quot;flaticon-ascendant3&quot;&gt;&lt;/span&gt; <span class="flaticon-ascendant3"></span></p><p>&lt;span class=&quot;flaticon-baby22&quot;&gt;&lt;/span&gt; <span class="flaticon-baby22"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-baby23&quot;&gt;&lt;/span&gt; <span class="flaticon-baby23"></span></p><p>&lt;i class=&quot;flaticon-balance3&quot;&gt;&lt;/i&gt; <i class="flaticon-balance3"></i></p><p>&lt;i class=&quot;flaticon-base1&quot;&gt;&lt;/i&gt; <i class="flaticon-base1"></i></p><p>&lt;i class=&quot;flaticon-biohazard&quot;&gt;&lt;/i&gt; <i class="flaticon-biohazard"></i></p><p>&lt;i class=&quot;flaticon-biological1&quot;&gt;&lt;/i&gt; <i class="flaticon-biological1"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-birthrate&quot;&gt;&lt;/span&gt; <span class="flaticon-birthrate"></span></p><p>&lt;span class=&quot;flaticon-black189&quot;&gt;&lt;/span&gt; <span class="flaticon-black189"></span></p><p>&lt;span class=&quot;flaticon-book100&quot;&gt;&lt;/span&gt; <span class="flaticon-book100"></span></p><p>&lt;span class=&quot;flaticon-bucket5&quot;&gt;&lt;/span&gt; <span class="flaticon-bucket5"></span></p><p>&lt;span class=&quot;flaticon-bucket6&quot;&gt;&lt;/span&gt; <span class="flaticon-bucket6"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

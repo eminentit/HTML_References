@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-apple17"></div>
+		<div class="class-name">.flaticon-apple17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/apple-laptop-computer_22791">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-apple18"></div>
+		<div class="class-name">.flaticon-apple18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/apple-imac-computer_22890">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-blank19"></div>
+		<div class="class-name">.flaticon-blank19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/blank-laptop-computer-screen_22935">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-broken15"></div>
+		<div class="class-name">.flaticon-broken15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/broken-desktop-computer-screen_22849">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-broken16"></div>
+		<div class="class-name">.flaticon-broken16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/broken-laptop-computer-monitor_22898">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-broken17"></div>
+		<div class="class-name">.flaticon-broken17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/broken-desktop-computer-screen_22940">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-burning3"></div>
+		<div class="class-name">.flaticon-burning3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/burning-a-cd_22902">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-central1"></div>
+		<div class="class-name">.flaticon-central1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/central-processing-unit_22839">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle30"></div>
+		<div class="class-name">.flaticon-circle30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-webcam_22929">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular44"></div>
+		<div class="class-name">.flaticon-circular44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-computer-webcam_22941">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloud101"></div>
+		<div class="class-name">.flaticon-cloud101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloud-storage-in-laptop-computer_22946">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cloud98"></div>
+		<div class="class-name">.flaticon-cloud98</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cloud-storage-search-on-computer_22925">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cogwheel6"></div>
+		<div class="class-name">.flaticon-cogwheel6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cogwheels-laptop-wallpaper_22990">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cogwheel7"></div>
+		<div class="class-name">.flaticon-cogwheel7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cogwheel-screensaver-on-desktop-computer-monitor_22991">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cogwheels1"></div>
+		<div class="class-name">.flaticon-cogwheels1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cogwheels-on-desktop-comptuer_22979">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compact7"></div>
+		<div class="class-name">.flaticon-compact7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compact-discs_22936">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer46"></div>
+		<div class="class-name">.flaticon-computer46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-listing_22770">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer47"></div>
+		<div class="class-name">.flaticon-computer47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-user_22775">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer48"></div>
+		<div class="class-name">.flaticon-computer48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-microchip_22777">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer49"></div>
+		<div class="class-name">.flaticon-computer49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-musical-note_22778">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer50"></div>
+		<div class="class-name">.flaticon-computer50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-with-earth-image-and-signal_22784">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer51"></div>
+		<div class="class-name">.flaticon-computer51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-compact-disc_22812">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer52"></div>
+		<div class="class-name">.flaticon-computer52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-wrench-and-screwdriver_22815">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer53"></div>
+		<div class="class-name">.flaticon-computer53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-hard-drive-with-fan_22820">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer54"></div>
+		<div class="class-name">.flaticon-computer54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-keyboard_22823">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer55"></div>
+		<div class="class-name">.flaticon-computer55</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-socket_22830">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer56"></div>
+		<div class="class-name">.flaticon-computer56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-windows-logo_22833">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer57"></div>
+		<div class="class-name">.flaticon-computer57</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-group-users_22840">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer58"></div>
+		<div class="class-name">.flaticon-computer58</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-electric-fan_22846">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer59"></div>
+		<div class="class-name">.flaticon-computer59</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-with-cloud-storage_22858">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer60"></div>
+		<div class="class-name">.flaticon-computer60</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-with-warning-sign_22859">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer61"></div>
+		<div class="class-name">.flaticon-computer61</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-mouse-with-wire-and-scroller_22870">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer62"></div>
+		<div class="class-name">.flaticon-computer62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-usb-port-symbol_22876">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer63"></div>
+		<div class="class-name">.flaticon-computer63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-arrow_22886">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer64"></div>
+		<div class="class-name">.flaticon-computer64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-hard-drive-storage_22894">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer65"></div>
+		<div class="class-name">.flaticon-computer65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-printer-silhouette_22915">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer66"></div>
+		<div class="class-name">.flaticon-computer66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-screen-with-plus-symbol_22918">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer67"></div>
+		<div class="class-name">.flaticon-computer67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-network-on-the-web_22919">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer68"></div>
+		<div class="class-name">.flaticon-computer68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-central-processing-unit_22944">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer69"></div>
+		<div class="class-name">.flaticon-computer69</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-network-connections_22951">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-computer70"></div>
+		<div class="class-name">.flaticon-computer70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/computer-searching_22981">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-connected6"></div>
+		<div class="class-name">.flaticon-connected6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/connected-computers_22803">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-connected7"></div>
+		<div class="class-name">.flaticon-connected7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/connected-laptop-computers_22872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop10"></div>
+		<div class="class-name">.flaticon-desktop10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-and-central-processing-unit_22928">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop11"></div>
+		<div class="class-name">.flaticon-desktop11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-with-gaming-console_22930">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop12"></div>
+		<div class="class-name">.flaticon-desktop12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-screen-with-cogwheel_22942">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop4"></div>
+		<div class="class-name">.flaticon-desktop4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-screen-with-check-mark_22771">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop5"></div>
+		<div class="class-name">.flaticon-desktop5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-with-pie-chart_22783">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop6"></div>
+		<div class="class-name">.flaticon-desktop6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-monitor-and-mouse_22825">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop7"></div>
+		<div class="class-name">.flaticon-desktop7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-screen-with-cross-mark_22845">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop8"></div>
+		<div class="class-name">.flaticon-desktop8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-monitor-and-cpu_22862">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-desktop9"></div>
+		<div class="class-name">.flaticon-desktop9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/desktop-computer-monitor-with-minus-sign_22921">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-disc1"></div>
+		<div class="class-name">.flaticon-disc1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/disc-cleaner-on-laptop-computer_22911">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-discharging"></div>
+		<div class="class-name">.flaticon-discharging</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/discharging-battery_22826">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-disc"></div>
+		<div class="class-name">.flaticon-disc</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/disc-cleaner-on-desktop-computer_22871">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-export4"></div>
+		<div class="class-name">.flaticon-export4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/export-folder-from-computer_22932">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-film23"></div>
+		<div class="class-name">.flaticon-film23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/film-tape_22853">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flash8"></div>
+		<div class="class-name">.flaticon-flash8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flash-drive-detected-by-laptop-computer_22854">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-flash9"></div>
+		<div class="class-name">.flaticon-flash9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/flash-drive-not-connected_22882">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-floppy10"></div>
+		<div class="class-name">.flaticon-floppy10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/floppy-storage-disk_22945">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-folder61"></div>
+		<div class="class-name">.flaticon-folder61</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/folder-with-arrow-to-computer_22852">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-gaming4"></div>
+		<div class="class-name">.flaticon-gaming4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/gaming-console-and-television-monitor_22880">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hard6"></div>
+		<div class="class-name">.flaticon-hard6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hard-drive-view-on-computer-screen_22848">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-headphones10"></div>
+		<div class="class-name">.flaticon-headphones10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/headphones-on-a-laptop-computer_22924">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-increasing4"></div>
+		<div class="class-name">.flaticon-increasing4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/increasing-line-graph-on-a-computer-screen_22850">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop16"></div>
+		<div class="class-name">.flaticon-laptop16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-with-wrench-tool_22769">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop17"></div>
+		<div class="class-name">.flaticon-laptop17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-unlocked-padlock_22804">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop18"></div>
+		<div class="class-name">.flaticon-laptop18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-screen-with-user-profiles_22807">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop19"></div>
+		<div class="class-name">.flaticon-laptop19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-wifi-signal_22808">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop20"></div>
+		<div class="class-name">.flaticon-laptop20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-screen-with-negative-sign_22814">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop21"></div>
+		<div class="class-name">.flaticon-laptop21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-screen-with-socket_22816">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop22"></div>
+		<div class="class-name">.flaticon-laptop22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-screen-with-rising-line-graph_22817">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop23"></div>
+		<div class="class-name">.flaticon-laptop23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-screen-displaying-no-battery_22822">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop24"></div>
+		<div class="class-name">.flaticon-laptop24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-cd_22861">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop25"></div>
+		<div class="class-name">.flaticon-laptop25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-add-sign_22873">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop26"></div>
+		<div class="class-name">.flaticon-laptop26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-mobile-device-detected_22881">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop27"></div>
+		<div class="class-name">.flaticon-laptop27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-full-battery_22885">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop28"></div>
+		<div class="class-name">.flaticon-laptop28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-logistics_22897">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop29"></div>
+		<div class="class-name">.flaticon-laptop29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-arrow_22901">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop30"></div>
+		<div class="class-name">.flaticon-laptop30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-detecting-wifi-signal_22904">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop31"></div>
+		<div class="class-name">.flaticon-laptop31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-playing-music_22910">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop32"></div>
+		<div class="class-name">.flaticon-laptop32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-user_22926">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop33"></div>
+		<div class="class-name">.flaticon-laptop33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-hard-drive_22933">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop34"></div>
+		<div class="class-name">.flaticon-laptop34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-warning-sign_22934">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop35"></div>
+		<div class="class-name">.flaticon-laptop35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-line-graph_22938">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop36"></div>
+		<div class="class-name">.flaticon-laptop36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-connector_22950">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop37"></div>
+		<div class="class-name">.flaticon-laptop37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-repair_22978">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop38"></div>
+		<div class="class-name">.flaticon-laptop38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-cross-mark_22984">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-laptop39"></div>
+		<div class="class-name">.flaticon-laptop39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/laptop-computer-with-loud-speaker_22985">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-linked1"></div>
+		<div class="class-name">.flaticon-linked1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/linked-in-logo-on-computer-screen_22865">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-locked3"></div>
+		<div class="class-name">.flaticon-locked3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/locked-laptop-screen_22923">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-locked4"></div>
+		<div class="class-name">.flaticon-locked4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/locked-computer-screen_22937">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-loud4"></div>
+		<div class="class-name">.flaticon-loud4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/loud-speaker-on-computer_22884">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-micro2"></div>
+		<div class="class-name">.flaticon-micro2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/micro-sd-card_22953">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music61"></div>
+		<div class="class-name">.flaticon-music61</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-headphones_22818">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-music62"></div>
+		<div class="class-name">.flaticon-music62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/music-note-on-computer-screen_22948">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-network22"></div>
+		<div class="class-name">.flaticon-network22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/network-administration_22805">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-not9"></div>
+		<div class="class-name">.flaticon-not9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/not-charging-battery-of-device_22811">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open82"></div>
+		<div class="class-name">.flaticon-open82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-computer-with-multiple-user-silhouette_22776">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open83"></div>
+		<div class="class-name">.flaticon-open83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-with-flame_22787">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open84"></div>
+		<div class="class-name">.flaticon-open84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-computer-with-pixel-boxes_22819">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open85"></div>
+		<div class="class-name">.flaticon-open85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-with-sd-card-on-screen_22834">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open86"></div>
+		<div class="class-name">.flaticon-open86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-computer-not-charging_22878">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open87"></div>
+		<div class="class-name">.flaticon-open87</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-computer-with-battery-level_22879">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-open88"></div>
+		<div class="class-name">.flaticon-open88</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/open-laptop-computer-with-check-sign_22903">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pie18"></div>
+		<div class="class-name">.flaticon-pie18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pie-chart-on-a-laptop-computer_22851">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-playing"></div>
+		<div class="class-name">.flaticon-playing</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/playing-music-on-laptop_22810">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-printing"></div>
+		<div class="class-name">.flaticon-printing</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/printing-device_22856">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-progress8"></div>
+		<div class="class-name">.flaticon-progress8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/progress-report-on-computer-screen_22906">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-protected"></div>
+		<div class="class-name">.flaticon-protected</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/protected-laptop-computer_22860">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-round28"></div>
+		<div class="class-name">.flaticon-round28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/round-flash-drive-with-cross-mark_22874">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-round29"></div>
+		<div class="class-name">.flaticon-round29</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/round-rectangular-keyboard_22896">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-screwdriver7"></div>
+		<div class="class-name">.flaticon-screwdriver7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/screwdriver-on-laptop-screen_22909">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching13"></div>
+		<div class="class-name">.flaticon-searching13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-in-laptop-computer_22892">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching14"></div>
+		<div class="class-name">.flaticon-searching14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-cloud-on-laptop-computer_22954">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-security10"></div>
+		<div class="class-name">.flaticon-security10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/security-activated-on-computer_22855">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-signal20"></div>
+		<div class="class-name">.flaticon-signal20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/signal-detected-by-computer_22813">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-single13"></div>
+		<div class="class-name">.flaticon-single13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/single-user-on-computer-screen_22913">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-small137"></div>
+		<div class="class-name">.flaticon-small137</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/small-desktop-computer-screen_22888">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-small138"></div>
+		<div class="class-name">.flaticon-small138</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/small-laptop-computer_22914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speaker32"></div>
+		<div class="class-name">.flaticon-speaker32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speaker-on-loud-mode_22869">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech46"></div>
+		<div class="class-name">.flaticon-speech46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-bubble-with-laptop-computer-inside_22781">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech47"></div>
+		<div class="class-name">.flaticon-speech47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-floppy-diskette_22809">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech48"></div>
+		<div class="class-name">.flaticon-speech48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-computer-monitor-inside_22821">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech49"></div>
+		<div class="class-name">.flaticon-speech49</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-computer-disc-drive_22827">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech50"></div>
+		<div class="class-name">.flaticon-speech50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-computer-screen_22843">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech51"></div>
+		<div class="class-name">.flaticon-speech51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-computer-hard-drive_22980">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech52"></div>
+		<div class="class-name">.flaticon-speech52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-webcam_22988">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-speech53"></div>
+		<div class="class-name">.flaticon-speech53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/speech-balloon-with-webcam_22992">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square50"></div>
+		<div class="class-name">.flaticon-square50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-internet-router_22786">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-twitter11"></div>
+		<div class="class-name">.flaticon-twitter11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/twitter-on-computer-screen_22866">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-universal2"></div>
+		<div class="class-name">.flaticon-universal2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/universal-serial-bus-connector_22900">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-unlocked11"></div>
+		<div class="class-name">.flaticon-unlocked11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/unlocked-computer-screen_22983">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb15"></div>
+		<div class="class-name">.flaticon-usb15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-connector-with-check-mark_22789">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb16"></div>
+		<div class="class-name">.flaticon-usb16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-flash-drive_22790">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb17"></div>
+		<div class="class-name">.flaticon-usb17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-flash-drive-on-computer-screen_22889">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb18"></div>
+		<div class="class-name">.flaticon-usb18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-storage-device-detected_22907">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb19"></div>
+		<div class="class-name">.flaticon-usb19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-connection-via-laptop-computer_22949">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-usb20"></div>
+		<div class="class-name">.flaticon-usb20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/usb-device-not-detected_23169">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-video70"></div>
+		<div class="class-name">.flaticon-video70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/video-reel_22864">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-web12"></div>
+		<div class="class-name">.flaticon-web12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/web-image-on-laptop-screen_22917">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wide5"></div>
+		<div class="class-name">.flaticon-wide5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wide-screen-laptop-computer-with-two-speakers_22785">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wifi30"></div>
+		<div class="class-name">.flaticon-wifi30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wifi-router-in-speech-balloon_22912">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wifi31"></div>
+		<div class="class-name">.flaticon-wifi31</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wifi-router-with-signal_22982">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-windows12"></div>
+		<div class="class-name">.flaticon-windows12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/windows-os-on-laptop-computer_22831">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wireless15"></div>
+		<div class="class-name">.flaticon-wireless15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wireless-internet-router_22875">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wireless16"></div>
+		<div class="class-name">.flaticon-wireless16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wireless-router-with-double-signal_22891">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world27"></div>
+		<div class="class-name">.flaticon-world27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-connected-to-two-computers_22773">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world28"></div>
+		<div class="class-name">.flaticon-world28</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-image-on-computer-screen_22899">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-youtube9"></div>
+		<div class="class-name">.flaticon-youtube9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/youtube-on-desktop-computer_22987">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-apple17&quot;&gt;&lt;/i&gt; <i class="flaticon-apple17"></i></p><p>&lt;i class=&quot;flaticon-apple18&quot;&gt;&lt;/i&gt; <i class="flaticon-apple18"></i></p><p>&lt;i class=&quot;flaticon-blank19&quot;&gt;&lt;/i&gt; <i class="flaticon-blank19"></i></p><p>&lt;i class=&quot;flaticon-broken15&quot;&gt;&lt;/i&gt; <i class="flaticon-broken15"></i></p><p>&lt;i class=&quot;flaticon-broken16&quot;&gt;&lt;/i&gt; <i class="flaticon-broken16"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-broken17&quot;&gt;&lt;/span&gt; <span class="flaticon-broken17"></span></p><p>&lt;span class=&quot;flaticon-burning3&quot;&gt;&lt;/span&gt; <span class="flaticon-burning3"></span></p><p>&lt;span class=&quot;flaticon-central1&quot;&gt;&lt;/span&gt; <span class="flaticon-central1"></span></p><p>&lt;span class=&quot;flaticon-circle30&quot;&gt;&lt;/span&gt; <span class="flaticon-circle30"></span></p><p>&lt;span class=&quot;flaticon-circular44&quot;&gt;&lt;/span&gt; <span class="flaticon-circular44"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-cloud101&quot;&gt;&lt;/span&gt; <span class="flaticon-cloud101"></span></p><p>&lt;i class=&quot;flaticon-cloud98&quot;&gt;&lt;/i&gt; <i class="flaticon-cloud98"></i></p><p>&lt;i class=&quot;flaticon-cogwheel6&quot;&gt;&lt;/i&gt; <i class="flaticon-cogwheel6"></i></p><p>&lt;i class=&quot;flaticon-cogwheel7&quot;&gt;&lt;/i&gt; <i class="flaticon-cogwheel7"></i></p><p>&lt;i class=&quot;flaticon-cogwheels1&quot;&gt;&lt;/i&gt; <i class="flaticon-cogwheels1"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-compact7&quot;&gt;&lt;/span&gt; <span class="flaticon-compact7"></span></p><p>&lt;span class=&quot;flaticon-computer46&quot;&gt;&lt;/span&gt; <span class="flaticon-computer46"></span></p><p>&lt;span class=&quot;flaticon-computer47&quot;&gt;&lt;/span&gt; <span class="flaticon-computer47"></span></p><p>&lt;span class=&quot;flaticon-computer48&quot;&gt;&lt;/span&gt; <span class="flaticon-computer48"></span></p><p>&lt;span class=&quot;flaticon-computer49&quot;&gt;&lt;/span&gt; <span class="flaticon-computer49"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

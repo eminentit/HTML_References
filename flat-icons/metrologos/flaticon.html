@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-algiers"></div>
+		<div class="class-name">.flaticon-algiers</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/algiers-metro-logo_50429">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-amsterdam1"></div>
+		<div class="class-name">.flaticon-amsterdam1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/amsterdam-metro-logo_50630">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-amsterdam"></div>
+		<div class="class-name">.flaticon-amsterdam</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/amsterdam-metro-logo_50489">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ankara"></div>
+		<div class="class-name">.flaticon-ankara</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ankara-metro-logo_50743">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-athens1"></div>
+		<div class="class-name">.flaticon-athens1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/athens-metro-logo-symbol_50349">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-athens"></div>
+		<div class="class-name">.flaticon-athens</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/athens-metro-logo_50298">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-atlanta"></div>
+		<div class="class-name">.flaticon-atlanta</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/atlanta-metro-logo_50867">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-baltimore"></div>
+		<div class="class-name">.flaticon-baltimore</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/baltimore-metro-logo-symbol_50399">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bangalore"></div>
+		<div class="class-name">.flaticon-bangalore</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bangalore-metro-logo_50639">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-barcelona1"></div>
+		<div class="class-name">.flaticon-barcelona1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/barcelona-metro-logo_50582">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-barcelona"></div>
+		<div class="class-name">.flaticon-barcelona</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/barcelona-metro-logo_50524">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-belo"></div>
+		<div class="class-name">.flaticon-belo</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/belo-horizonte-metro-logo_50887">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bilbao"></div>
+		<div class="class-name">.flaticon-bilbao</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bilbao-metro-logos_50461">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bkv"></div>
+		<div class="class-name">.flaticon-bkv</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bkv-metro-logo_50692">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boston"></div>
+		<div class="class-name">.flaticon-boston</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boston-metro-logo_50694">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-brasilia"></div>
+		<div class="class-name">.flaticon-brasilia</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/brasilia-metro-logo_50850">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-brescia"></div>
+		<div class="class-name">.flaticon-brescia</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/brescia-metro-logo_50858">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-brussels"></div>
+		<div class="class-name">.flaticon-brussels</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/brussels-metro-logo_50687">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bucharest"></div>
+		<div class="class-name">.flaticon-bucharest</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bucharest-metro-logo_50563">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-budapest"></div>
+		<div class="class-name">.flaticon-budapest</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/budapest-metro-logo_50471">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-buenos1"></div>
+		<div class="class-name">.flaticon-buenos1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/buenos-aires-metro-logo_50444">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-buffalo2"></div>
+		<div class="class-name">.flaticon-buffalo2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/buffalo-metro-logo_50831">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-busan"></div>
+		<div class="class-name">.flaticon-busan</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/busan-metro-logo_50871">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-cairo"></div>
+		<div class="class-name">.flaticon-cairo</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/cairo-metro-logo_50316">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-catania"></div>
+		<div class="class-name">.flaticon-catania</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/catania-metro-logo_50677">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-changchun"></div>
+		<div class="class-name">.flaticon-changchun</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/changchun-metro-logo_50299">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-chengdu"></div>
+		<div class="class-name">.flaticon-chengdu</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/chengdu-metro-logo_50394">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-chiba1"></div>
+		<div class="class-name">.flaticon-chiba1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/chiba-metro-logo_50760">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-chicago1"></div>
+		<div class="class-name">.flaticon-chicago1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/chicago-metro-logo_50786">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-copenhagen"></div>
+		<div class="class-name">.flaticon-copenhagen</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/copenhagen-metro-logo_50667">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-daegu"></div>
+		<div class="class-name">.flaticon-daegu</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/daegu-metro-logo-symbol_50436">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dalian"></div>
+		<div class="class-name">.flaticon-dalian</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dalian-metro-logo_50872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-delhi"></div>
+		<div class="class-name">.flaticon-delhi</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/delhi-metro-logo_50953">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-detroit"></div>
+		<div class="class-name">.flaticon-detroit</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/detroit-metro-logo_50930">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dnepropetrovsk"></div>
+		<div class="class-name">.flaticon-dnepropetrovsk</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dnepropetrovsk-metro-logo_51384">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dubai"></div>
+		<div class="class-name">.flaticon-dubai</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dubai-metro-logo_50478">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-edmonton"></div>
+		<div class="class-name">.flaticon-edmonton</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/edmonton-metro-logo_50790">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-fukuoka2"></div>
+		<div class="class-name">.flaticon-fukuoka2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/fukuoka-metro-logo_50908">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-glasgow"></div>
+		<div class="class-name">.flaticon-glasgow</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/glasgow-circular-metro-logo-symbol_50628">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-guangzhou"></div>
+		<div class="class-name">.flaticon-guangzhou</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/guangzhou-metro-logo_50506">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-gwangju"></div>
+		<div class="class-name">.flaticon-gwangju</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/gwangju-metro-logo_50313">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-haifa"></div>
+		<div class="class-name">.flaticon-haifa</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/haifa-metro-logo_50825">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hanover"></div>
+		<div class="class-name">.flaticon-hanover</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hanover-metro-logo_50520">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-harbin"></div>
+		<div class="class-name">.flaticon-harbin</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/harbin-metro-logo_50777">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-helsinki1"></div>
+		<div class="class-name">.flaticon-helsinki1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/helsinki-metro-logo_50620">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-helsinki"></div>
+		<div class="class-name">.flaticon-helsinki</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/helsinki-metro-logo_50602">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hiroshima3"></div>
+		<div class="class-name">.flaticon-hiroshima3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hiroshima-metro-logo_50525">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hong1"></div>
+		<div class="class-name">.flaticon-hong1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hong-kong-metro-logo_50329">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-incheon"></div>
+		<div class="class-name">.flaticon-incheon</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/incheon-metro-logo_50944">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-istanbul"></div>
+		<div class="class-name">.flaticon-istanbul</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/istanbul-metro-logo_50358">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-izmir"></div>
+		<div class="class-name">.flaticon-izmir</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/izmir-metro-logo-symbol_50539">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-jacksonville"></div>
+		<div class="class-name">.flaticon-jacksonville</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/jacksonville-metro-logo_50702">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kamakura"></div>
+		<div class="class-name">.flaticon-kamakura</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kamakura-metro-logo_50574">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kaohsiung"></div>
+		<div class="class-name">.flaticon-kaohsiung</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kaohsiung-metro-logo_50805">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kazan"></div>
+		<div class="class-name">.flaticon-kazan</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kazan-metro-logo_50940">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kharkov"></div>
+		<div class="class-name">.flaticon-kharkov</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kharkov-metro-logo_50738">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kiev"></div>
+		<div class="class-name">.flaticon-kiev</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kiev-metro-logo_50636">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kitakyushu"></div>
+		<div class="class-name">.flaticon-kitakyushu</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kitakyushu-metro-logo_50693">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kobe"></div>
+		<div class="class-name">.flaticon-kobe</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kobe-metro-logo_50799">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kolkata"></div>
+		<div class="class-name">.flaticon-kolkata</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kolkata-metro-logo_50793">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kryvyi"></div>
+		<div class="class-name">.flaticon-kryvyi</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kryvyi-rih-metro-logo_50829">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kuala"></div>
+		<div class="class-name">.flaticon-kuala</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kuala-lumpur-metro-logo_50404">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kunming"></div>
+		<div class="class-name">.flaticon-kunming</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kunming-metro-logo_50733">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-kyoto1"></div>
+		<div class="class-name">.flaticon-kyoto1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/kyoto-metro-logo_50608">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-las"></div>
+		<div class="class-name">.flaticon-las</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/las-vegas-metro-logo_50516">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lausanne"></div>
+		<div class="class-name">.flaticon-lausanne</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lausanne-metro-logo_50772">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lille"></div>
+		<div class="class-name">.flaticon-lille</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lille-metro-logo_50792">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lima"></div>
+		<div class="class-name">.flaticon-lima</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lima-metro-logo_50585">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lisbon"></div>
+		<div class="class-name">.flaticon-lisbon</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lisbon-metro-logo_50573">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-london1"></div>
+		<div class="class-name">.flaticon-london1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/london-metro-logo_50438">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-los"></div>
+		<div class="class-name">.flaticon-los</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/los-angeles-metro-logo_50565">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lyon"></div>
+		<div class="class-name">.flaticon-lyon</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lyon-metro-logo_50492">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-madrid"></div>
+		<div class="class-name">.flaticon-madrid</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/madrid-metro-logo_50946">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-manila"></div>
+		<div class="class-name">.flaticon-manila</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/manila-metro-logo_50785">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-maracaibo"></div>
+		<div class="class-name">.flaticon-maracaibo</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/maracaibo-metro-logo_50648">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-marseille"></div>
+		<div class="class-name">.flaticon-marseille</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/marseille-metro-logo_50968">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mashhad"></div>
+		<div class="class-name">.flaticon-mashhad</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mashhad-metro-logo_50712">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-medellin"></div>
+		<div class="class-name">.flaticon-medellin</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/medellin-metro-logo_50755">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-metro2"></div>
+		<div class="class-name">.flaticon-metro2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/metro-caracas_50318">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mexico2"></div>
+		<div class="class-name">.flaticon-mexico2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mexico-city-metro-logo_50919">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-miami"></div>
+		<div class="class-name">.flaticon-miami</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/miami-metro-logo_50818">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-minsk"></div>
+		<div class="class-name">.flaticon-minsk</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/minsk-metro-logo_50918">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-monterrey"></div>
+		<div class="class-name">.flaticon-monterrey</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/monterrey-metro-logo_50806">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-montreal1"></div>
+		<div class="class-name">.flaticon-montreal1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/montreal-metro-logo_50720">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-montreal"></div>
+		<div class="class-name">.flaticon-montreal</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/montreal-metro-logo_50526">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-moscow"></div>
+		<div class="class-name">.flaticon-moscow</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/moscow-metro-logo_50300">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-nagoya"></div>
+		<div class="class-name">.flaticon-nagoya</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/nagoya-metro-logo_50338">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-naha"></div>
+		<div class="class-name">.flaticon-naha</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/naha-metro-logo_50674">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-nanjing"></div>
+		<div class="class-name">.flaticon-nanjing</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/nanjing-metro-logo_50796">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-new52"></div>
+		<div class="class-name">.flaticon-new52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/new-castle-metro-logo_50356">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-new53"></div>
+		<div class="class-name">.flaticon-new53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/new-york-metro-logo_50450">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-newark"></div>
+		<div class="class-name">.flaticon-newark</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/newark-metro-logo_50774">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-nizhny"></div>
+		<div class="class-name">.flaticon-nizhny</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/nizhny-novgorod-metro-logo-symbol_50421">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-novosibirsk"></div>
+		<div class="class-name">.flaticon-novosibirsk</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/novosibirsk-metro-logo_50612">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-oporto"></div>
+		<div class="class-name">.flaticon-oporto</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/oporto-metro-logo_50771">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-osaka1"></div>
+		<div class="class-name">.flaticon-osaka1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/osaka-metro-logo_50334">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-oslo"></div>
+		<div class="class-name">.flaticon-oslo</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/oslo-metro-logotype_50882">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-palma"></div>
+		<div class="class-name">.flaticon-palma</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/palma-de-mallorca-metro-logo_50770">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-paris1"></div>
+		<div class="class-name">.flaticon-paris1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/paris-transport-metro-logo_50844">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-perugia"></div>
+		<div class="class-name">.flaticon-perugia</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/perugia-metro-logo_50951">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-philadelphia1"></div>
+		<div class="class-name">.flaticon-philadelphia1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/philadelphia-septa-metro-logo_50982">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-philadelphia"></div>
+		<div class="class-name">.flaticon-philadelphia</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/philadelphia-patco-metro-logo_50811">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pittsburgh"></div>
+		<div class="class-name">.flaticon-pittsburgh</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pittsburgh-metro-logo_50568">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-porto"></div>
+		<div class="class-name">.flaticon-porto</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/porto-alegre-metro-logo-symbol_50649">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-poznan"></div>
+		<div class="class-name">.flaticon-poznan</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/poznan-metro-logos_50868">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pyongyang"></div>
+		<div class="class-name">.flaticon-pyongyang</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pyongyang-metro-logo_50877">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-recife"></div>
+		<div class="class-name">.flaticon-recife</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/recife-metro-logo_50880">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rennes"></div>
+		<div class="class-name">.flaticon-rennes</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rennes-metro-logo_50483">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rio1"></div>
+		<div class="class-name">.flaticon-rio1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rio-de-janeiro-metro-logo_50722">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rome"></div>
+		<div class="class-name">.flaticon-rome</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rome-metro-logo_50870">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-rouen"></div>
+		<div class="class-name">.flaticon-rouen</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/rouen-metro-logo_50564">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-saint5"></div>
+		<div class="class-name">.flaticon-saint5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/saint-louis-metro-logo_50610">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-saint6"></div>
+		<div class="class-name">.flaticon-saint6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/saint-petersburg-metro-logo_50839">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-san2"></div>
+		<div class="class-name">.flaticon-san2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/san-juan-metro-logo_50644">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-san3"></div>
+		<div class="class-name">.flaticon-san3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/san-francisco-metro-logo_50725">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-santiago"></div>
+		<div class="class-name">.flaticon-santiago</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/santiago-metro-logo_50835">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sao1"></div>
+		<div class="class-name">.flaticon-sao1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sao-paulo-metro-logo_50886">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sao"></div>
+		<div class="class-name">.flaticon-sao</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sao-paulo-via-quatro-metro-logo_50737">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-seattle1"></div>
+		<div class="class-name">.flaticon-seattle1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/seattle-metro-logo_50484">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sendai"></div>
+		<div class="class-name">.flaticon-sendai</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sendai-metro-logo_50297">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-seoul1"></div>
+		<div class="class-name">.flaticon-seoul1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/seoul-metro-logo_50932">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-seoul2"></div>
+		<div class="class-name">.flaticon-seoul2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/seoul-metro-logo_50990">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-seoul"></div>
+		<div class="class-name">.flaticon-seoul</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/seoul-metro-logo_50724">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-seville"></div>
+		<div class="class-name">.flaticon-seville</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/seville-metro-logo_50650">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-shenyang"></div>
+		<div class="class-name">.flaticon-shenyang</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/shenyang-metro-logo_50378">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-shenzhen"></div>
+		<div class="class-name">.flaticon-shenzhen</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/shenzhen-metro-logo_50840">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-singapore2"></div>
+		<div class="class-name">.flaticon-singapore2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/singapore-metro-logo_50862">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stadtbahn"></div>
+		<div class="class-name">.flaticon-stadtbahn</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stadtbahn-metro-logo_50681">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stockholm"></div>
+		<div class="class-name">.flaticon-stockholm</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stockholm-metro-logo_50557">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-suzhou"></div>
+		<div class="class-name">.flaticon-suzhou</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/suzhou-metro-logo_50673">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sydney1"></div>
+		<div class="class-name">.flaticon-sydney1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sydney-metro-logo-circular-symbol_50684">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-taipei1"></div>
+		<div class="class-name">.flaticon-taipei1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/taipei-metro-logo_50820">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tama"></div>
+		<div class="class-name">.flaticon-tama</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tama-metro-logotype_50468">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tashkent"></div>
+		<div class="class-name">.flaticon-tashkent</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tashkent-metro-logo_50879">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tbilisi"></div>
+		<div class="class-name">.flaticon-tbilisi</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tbilisi-metro-logo-symbol_50397">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tehran"></div>
+		<div class="class-name">.flaticon-tehran</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tehran-metro-logo_50753">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-the34"></div>
+		<div class="class-name">.flaticon-the34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/the-hague-metro-logo_50355">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tianjin"></div>
+		<div class="class-name">.flaticon-tianjin</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tianjin-metro-logo_50788">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tokyo2"></div>
+		<div class="class-name">.flaticon-tokyo2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tokyo-metro-logo_50697">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tokyo3"></div>
+		<div class="class-name">.flaticon-tokyo3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tokyo-metro-logo_50993">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-toulouse"></div>
+		<div class="class-name">.flaticon-toulouse</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/toulouse-metro-logo_50523">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-valencia"></div>
+		<div class="class-name">.flaticon-valencia</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/valencia-metro-logo_50975">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-vancouver"></div>
+		<div class="class-name">.flaticon-vancouver</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/vancouver-metro-logo_50410">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-vienna"></div>
+		<div class="class-name">.flaticon-vienna</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/vienna-metro-logo_50417">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-volgograd"></div>
+		<div class="class-name">.flaticon-volgograd</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/volgograd-metro-logo_50566">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-warsaw1"></div>
+		<div class="class-name">.flaticon-warsaw1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/warsaw-metro-logo_50668">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-washington1"></div>
+		<div class="class-name">.flaticon-washington1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/washington-metro-logo_50671">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wuhan"></div>
+		<div class="class-name">.flaticon-wuhan</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wuhan-metro-logo_50922">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wuppertal"></div>
+		<div class="class-name">.flaticon-wuppertal</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wuppertal-metro-logo_50325">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yekaterinburg"></div>
+		<div class="class-name">.flaticon-yekaterinburg</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yekaterinburg-metro-logo_50422">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yerevan"></div>
+		<div class="class-name">.flaticon-yerevan</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yerevan-metro-logo_50558">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yokohama1"></div>
+		<div class="class-name">.flaticon-yokohama1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yokohama-minatomirai-logo-symbol_51103">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yokohama"></div>
+		<div class="class-name">.flaticon-yokohama</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yokohama-metro-logo_50494">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-zhengzhou"></div>
+		<div class="class-name">.flaticon-zhengzhou</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/zhengzhou-metro-logo_50656">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-algiers&quot;&gt;&lt;/i&gt; <i class="flaticon-algiers"></i></p><p>&lt;i class=&quot;flaticon-amsterdam1&quot;&gt;&lt;/i&gt; <i class="flaticon-amsterdam1"></i></p><p>&lt;i class=&quot;flaticon-amsterdam&quot;&gt;&lt;/i&gt; <i class="flaticon-amsterdam"></i></p><p>&lt;i class=&quot;flaticon-ankara&quot;&gt;&lt;/i&gt; <i class="flaticon-ankara"></i></p><p>&lt;i class=&quot;flaticon-athens1&quot;&gt;&lt;/i&gt; <i class="flaticon-athens1"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-athens&quot;&gt;&lt;/span&gt; <span class="flaticon-athens"></span></p><p>&lt;span class=&quot;flaticon-atlanta&quot;&gt;&lt;/span&gt; <span class="flaticon-atlanta"></span></p><p>&lt;span class=&quot;flaticon-baltimore&quot;&gt;&lt;/span&gt; <span class="flaticon-baltimore"></span></p><p>&lt;span class=&quot;flaticon-bangalore&quot;&gt;&lt;/span&gt; <span class="flaticon-bangalore"></span></p><p>&lt;span class=&quot;flaticon-barcelona1&quot;&gt;&lt;/span&gt; <span class="flaticon-barcelona1"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-barcelona&quot;&gt;&lt;/span&gt; <span class="flaticon-barcelona"></span></p><p>&lt;i class=&quot;flaticon-belo&quot;&gt;&lt;/i&gt; <i class="flaticon-belo"></i></p><p>&lt;i class=&quot;flaticon-bilbao&quot;&gt;&lt;/i&gt; <i class="flaticon-bilbao"></i></p><p>&lt;i class=&quot;flaticon-bkv&quot;&gt;&lt;/i&gt; <i class="flaticon-bkv"></i></p><p>&lt;i class=&quot;flaticon-boston&quot;&gt;&lt;/i&gt; <i class="flaticon-boston"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-brasilia&quot;&gt;&lt;/span&gt; <span class="flaticon-brasilia"></span></p><p>&lt;span class=&quot;flaticon-brescia&quot;&gt;&lt;/span&gt; <span class="flaticon-brescia"></span></p><p>&lt;span class=&quot;flaticon-brussels&quot;&gt;&lt;/span&gt; <span class="flaticon-brussels"></span></p><p>&lt;span class=&quot;flaticon-bucharest&quot;&gt;&lt;/span&gt; <span class="flaticon-bucharest"></span></p><p>&lt;span class=&quot;flaticon-budapest&quot;&gt;&lt;/span&gt; <span class="flaticon-budapest"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

@@ -1,0 +1,478 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-algiers:before {
+	content: "\e000";
+}
+.flaticon-amsterdam1:before {
+	content: "\e001";
+}
+.flaticon-amsterdam:before {
+	content: "\e002";
+}
+.flaticon-ankara:before {
+	content: "\e003";
+}
+.flaticon-athens1:before {
+	content: "\e004";
+}
+.flaticon-athens:before {
+	content: "\e005";
+}
+.flaticon-atlanta:before {
+	content: "\e006";
+}
+.flaticon-baltimore:before {
+	content: "\e007";
+}
+.flaticon-bangalore:before {
+	content: "\e008";
+}
+.flaticon-barcelona1:before {
+	content: "\e009";
+}
+.flaticon-barcelona:before {
+	content: "\e00a";
+}
+.flaticon-belo:before {
+	content: "\e00b";
+}
+.flaticon-bilbao:before {
+	content: "\e00c";
+}
+.flaticon-bkv:before {
+	content: "\e00d";
+}
+.flaticon-boston:before {
+	content: "\e00e";
+}
+.flaticon-brasilia:before {
+	content: "\e00f";
+}
+.flaticon-brescia:before {
+	content: "\e010";
+}
+.flaticon-brussels:before {
+	content: "\e011";
+}
+.flaticon-bucharest:before {
+	content: "\e012";
+}
+.flaticon-budapest:before {
+	content: "\e013";
+}
+.flaticon-buenos1:before {
+	content: "\e014";
+}
+.flaticon-buffalo2:before {
+	content: "\e015";
+}
+.flaticon-busan:before {
+	content: "\e016";
+}
+.flaticon-cairo:before {
+	content: "\e017";
+}
+.flaticon-catania:before {
+	content: "\e018";
+}
+.flaticon-changchun:before {
+	content: "\e019";
+}
+.flaticon-chengdu:before {
+	content: "\e01a";
+}
+.flaticon-chiba1:before {
+	content: "\e01b";
+}
+.flaticon-chicago1:before {
+	content: "\e01c";
+}
+.flaticon-copenhagen:before {
+	content: "\e01d";
+}
+.flaticon-daegu:before {
+	content: "\e01e";
+}
+.flaticon-dalian:before {
+	content: "\e01f";
+}
+.flaticon-delhi:before {
+	content: "\e020";
+}
+.flaticon-detroit:before {
+	content: "\e021";
+}
+.flaticon-dnepropetrovsk:before {
+	content: "\e022";
+}
+.flaticon-dubai:before {
+	content: "\e023";
+}
+.flaticon-edmonton:before {
+	content: "\e024";
+}
+.flaticon-fukuoka2:before {
+	content: "\e025";
+}
+.flaticon-glasgow:before {
+	content: "\e026";
+}
+.flaticon-guangzhou:before {
+	content: "\e027";
+}
+.flaticon-gwangju:before {
+	content: "\e028";
+}
+.flaticon-haifa:before {
+	content: "\e029";
+}
+.flaticon-hanover:before {
+	content: "\e02a";
+}
+.flaticon-harbin:before {
+	content: "\e02b";
+}
+.flaticon-helsinki1:before {
+	content: "\e02c";
+}
+.flaticon-helsinki:before {
+	content: "\e02d";
+}
+.flaticon-hiroshima3:before {
+	content: "\e02e";
+}
+.flaticon-hong1:before {
+	content: "\e02f";
+}
+.flaticon-incheon:before {
+	content: "\e030";
+}
+.flaticon-istanbul:before {
+	content: "\e031";
+}
+.flaticon-izmir:before {
+	content: "\e032";
+}
+.flaticon-jacksonville:before {
+	content: "\e033";
+}
+.flaticon-kamakura:before {
+	content: "\e034";
+}
+.flaticon-kaohsiung:before {
+	content: "\e035";
+}
+.flaticon-kazan:before {
+	content: "\e036";
+}
+.flaticon-kharkov:before {
+	content: "\e037";
+}
+.flaticon-kiev:before {
+	content: "\e038";
+}
+.flaticon-kitakyushu:before {
+	content: "\e039";
+}
+.flaticon-kobe:before {
+	content: "\e03a";
+}
+.flaticon-kolkata:before {
+	content: "\e03b";
+}
+.flaticon-kryvyi:before {
+	content: "\e03c";
+}
+.flaticon-kuala:before {
+	content: "\e03d";
+}
+.flaticon-kunming:before {
+	content: "\e03e";
+}
+.flaticon-kyoto1:before {
+	content: "\e03f";
+}
+.flaticon-las:before {
+	content: "\e040";
+}
+.flaticon-lausanne:before {
+	content: "\e041";
+}
+.flaticon-lille:before {
+	content: "\e042";
+}
+.flaticon-lima:before {
+	content: "\e043";
+}
+.flaticon-lisbon:before {
+	content: "\e044";
+}
+.flaticon-london1:before {
+	content: "\e045";
+}
+.flaticon-los:before {
+	content: "\e046";
+}
+.flaticon-lyon:before {
+	content: "\e047";
+}
+.flaticon-madrid:before {
+	content: "\e048";
+}
+.flaticon-manila:before {
+	content: "\e049";
+}
+.flaticon-maracaibo:before {
+	content: "\e04a";
+}
+.flaticon-marseille:before {
+	content: "\e04b";
+}
+.flaticon-mashhad:before {
+	content: "\e04c";
+}
+.flaticon-medellin:before {
+	content: "\e04d";
+}
+.flaticon-metro2:before {
+	content: "\e04e";
+}
+.flaticon-mexico2:before {
+	content: "\e04f";
+}
+.flaticon-miami:before {
+	content: "\e050";
+}
+.flaticon-minsk:before {
+	content: "\e051";
+}
+.flaticon-monterrey:before {
+	content: "\e052";
+}
+.flaticon-montreal1:before {
+	content: "\e053";
+}
+.flaticon-montreal:before {
+	content: "\e054";
+}
+.flaticon-moscow:before {
+	content: "\e055";
+}
+.flaticon-nagoya:before {
+	content: "\e056";
+}
+.flaticon-naha:before {
+	content: "\e057";
+}
+.flaticon-nanjing:before {
+	content: "\e058";
+}
+.flaticon-new52:before {
+	content: "\e059";
+}
+.flaticon-new53:before {
+	content: "\e05a";
+}
+.flaticon-newark:before {
+	content: "\e05b";
+}
+.flaticon-nizhny:before {
+	content: "\e05c";
+}
+.flaticon-novosibirsk:before {
+	content: "\e05d";
+}
+.flaticon-oporto:before {
+	content: "\e05e";
+}
+.flaticon-osaka1:before {
+	content: "\e05f";
+}
+.flaticon-oslo:before {
+	content: "\e060";
+}
+.flaticon-palma:before {
+	content: "\e061";
+}
+.flaticon-paris1:before {
+	content: "\e062";
+}
+.flaticon-perugia:before {
+	content: "\e063";
+}
+.flaticon-philadelphia1:before {
+	content: "\e064";
+}
+.flaticon-philadelphia:before {
+	content: "\e065";
+}
+.flaticon-pittsburgh:before {
+	content: "\e066";
+}
+.flaticon-porto:before {
+	content: "\e067";
+}
+.flaticon-poznan:before {
+	content: "\e068";
+}
+.flaticon-pyongyang:before {
+	content: "\e069";
+}
+.flaticon-recife:before {
+	content: "\e06a";
+}
+.flaticon-rennes:before {
+	content: "\e06b";
+}
+.flaticon-rio1:before {
+	content: "\e06c";
+}
+.flaticon-rome:before {
+	content: "\e06d";
+}
+.flaticon-rouen:before {
+	content: "\e06e";
+}
+.flaticon-saint5:before {
+	content: "\e06f";
+}
+.flaticon-saint6:before {
+	content: "\e070";
+}
+.flaticon-san2:before {
+	content: "\e071";
+}
+.flaticon-san3:before {
+	content: "\e072";
+}
+.flaticon-santiago:before {
+	content: "\e073";
+}
+.flaticon-sao1:before {
+	content: "\e074";
+}
+.flaticon-sao:before {
+	content: "\e075";
+}
+.flaticon-seattle1:before {
+	content: "\e076";
+}
+.flaticon-sendai:before {
+	content: "\e077";
+}
+.flaticon-seoul1:before {
+	content: "\e078";
+}
+.flaticon-seoul2:before {
+	content: "\e079";
+}
+.flaticon-seoul:before {
+	content: "\e07a";
+}
+.flaticon-seville:before {
+	content: "\e07b";
+}
+.flaticon-shenyang:before {
+	content: "\e07c";
+}
+.flaticon-shenzhen:before {
+	content: "\e07d";
+}
+.flaticon-singapore2:before {
+	content: "\e07e";
+}
+.flaticon-stadtbahn:before {
+	content: "\e07f";
+}
+.flaticon-stockholm:before {
+	content: "\e080";
+}
+.flaticon-suzhou:before {
+	content: "\e081";
+}
+.flaticon-sydney1:before {
+	content: "\e082";
+}
+.flaticon-taipei1:before {
+	content: "\e083";
+}
+.flaticon-tama:before {
+	content: "\e084";
+}
+.flaticon-tashkent:before {
+	content: "\e085";
+}
+.flaticon-tbilisi:before {
+	content: "\e086";
+}
+.flaticon-tehran:before {
+	content: "\e087";
+}
+.flaticon-the34:before {
+	content: "\e088";
+}
+.flaticon-tianjin:before {
+	content: "\e089";
+}
+.flaticon-tokyo2:before {
+	content: "\e08a";
+}
+.flaticon-tokyo3:before {
+	content: "\e08b";
+}
+.flaticon-toulouse:before {
+	content: "\e08c";
+}
+.flaticon-valencia:before {
+	content: "\e08d";
+}
+.flaticon-vancouver:before {
+	content: "\e08e";
+}
+.flaticon-vienna:before {
+	content: "\e08f";
+}
+.flaticon-volgograd:before {
+	content: "\e090";
+}
+.flaticon-warsaw1:before {
+	content: "\e091";
+}
+.flaticon-washington1:before {
+	content: "\e092";
+}
+.flaticon-wuhan:before {
+	content: "\e093";
+}
+.flaticon-wuppertal:before {
+	content: "\e094";
+}
+.flaticon-yekaterinburg:before {
+	content: "\e095";
+}
+.flaticon-yerevan:before {
+	content: "\e096";
+}
+.flaticon-yokohama1:before {
+	content: "\e097";
+}
+.flaticon-yokohama:before {
+	content: "\e098";
+}
+.flaticon-zhengzhou:before {
+	content: "\e099";
+}

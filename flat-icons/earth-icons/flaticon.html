@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-2439"></div>
+		<div class="class-name">.flaticon-2439</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/24-hours-earth-grid-symbol-with-arrows-circle-around_45037">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane62"></div>
+		<div class="class-name">.flaticon-airplane62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-travelling-around-earth_44799">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane63"></div>
+		<div class="class-name">.flaticon-airplane63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-flight-around-the-planet_44942">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane64"></div>
+		<div class="class-name">.flaticon-airplane64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-flying-around-earth-grid_44974">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-airplane65"></div>
+		<div class="class-name">.flaticon-airplane65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/airplane-flight-in-circle-around-earth_45111">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-atom17"></div>
+		<div class="class-name">.flaticon-atom17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/atom-symbol_45082">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-black286"></div>
+		<div class="class-name">.flaticon-black286</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/black-earth-circle-with-thin-grid_44507">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle68"></div>
+		<div class="class-name">.flaticon-circle68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-dots_44372">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle70"></div>
+		<div class="class-name">.flaticon-circle70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-dots-pattern_44811">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle71"></div>
+		<div class="class-name">.flaticon-circle71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-irregular-grid-lines_44820">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle72"></div>
+		<div class="class-name">.flaticon-circle72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-curves-pattern_44924">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle73"></div>
+		<div class="class-name">.flaticon-circle73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-dots-forming-a-spiral-in-perspective_44949">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circle74"></div>
+		<div class="class-name">.flaticon-circle74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circle-with-rhombs-pattern_44998">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular128"></div>
+		<div class="class-name">.flaticon-circular128</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-pattern_45031">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass61"></div>
+		<div class="class-name">.flaticon-compass61</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass-for-orientation-on-earth_45146">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass62"></div>
+		<div class="class-name">.flaticon-compass62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass_44941">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass63"></div>
+		<div class="class-name">.flaticon-compass63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass-with-earth-cardinal-points-directions_45005">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-compass68"></div>
+		<div class="class-name">.flaticon-compass68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/compass-with-cardinal-points-for-orientation-on-earth_48700">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-continents"></div>
+		<div class="class-name">.flaticon-continents</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/continents-of-earth_44860">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dots3"></div>
+		<div class="class-name">.flaticon-dots3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dots-circular-shape_45092">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth100"></div>
+		<div class="class-name">.flaticon-earth100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-over-a-boy-silhouette_44663">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth101"></div>
+		<div class="class-name">.flaticon-earth101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-black-symbol-with-thin-grid_44669">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth102"></div>
+		<div class="class-name">.flaticon-earth102</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_44688">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth103"></div>
+		<div class="class-name">.flaticon-earth103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-map-in-an-oval_44694">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth104"></div>
+		<div class="class-name">.flaticon-earth104</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-continents-shapes-in-a-heart-outline-shape_44695">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth105"></div>
+		<div class="class-name">.flaticon-earth105</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-connections-grid_44696">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth106"></div>
+		<div class="class-name">.flaticon-earth106</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-circle_44697">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth107"></div>
+		<div class="class-name">.flaticon-earth107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth_44704">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth108"></div>
+		<div class="class-name">.flaticon-earth108</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circle-with-arrows_44706">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth109"></div>
+		<div class="class-name">.flaticon-earth109</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-on-placeholder_44711">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth110"></div>
+		<div class="class-name">.flaticon-earth110</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-arrows-around_44712">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth111"></div>
+		<div class="class-name">.flaticon-earth111</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-vertical-lines-grid_44713">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth112"></div>
+		<div class="class-name">.flaticon-earth112</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-a-circle-of-three-arrows_44719">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth113"></div>
+		<div class="class-name">.flaticon-earth113</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-continents_44720">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth114"></div>
+		<div class="class-name">.flaticon-earth114</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbols-on-book-pages_44729">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth115"></div>
+		<div class="class-name">.flaticon-earth115</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-striped-circle_44730">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth116"></div>
+		<div class="class-name">.flaticon-earth116</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-tool_44734">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth117"></div>
+		<div class="class-name">.flaticon-earth117</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe_44736">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth118"></div>
+		<div class="class-name">.flaticon-earth118</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-in-placeholder_44751">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth119"></div>
+		<div class="class-name">.flaticon-earth119</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-of-horizontal-parallel-lines_44752">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth120"></div>
+		<div class="class-name">.flaticon-earth120</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-arrow-around_44762">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth121"></div>
+		<div class="class-name">.flaticon-earth121</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-closed-grid_44776">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth122"></div>
+		<div class="class-name">.flaticon-earth122</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-placeholder_44782">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth123"></div>
+		<div class="class-name">.flaticon-earth123</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-and-three-persons_44788">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth124"></div>
+		<div class="class-name">.flaticon-earth124</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-connected-points-on-grid_44797">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth125"></div>
+		<div class="class-name">.flaticon-earth125</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-symbol_44798">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth126"></div>
+		<div class="class-name">.flaticon-earth126</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol_44805">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth127"></div>
+		<div class="class-name">.flaticon-earth127</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-continents-map-with-flying-airplanes_44806">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth128"></div>
+		<div class="class-name">.flaticon-earth128</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-gear-symbol-of-half-parts_44814">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth129"></div>
+		<div class="class-name">.flaticon-earth129</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-dots-and-lines-of-connections-of-business_45142">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth130"></div>
+		<div class="class-name">.flaticon-earth130</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-time-symbol_45127">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth131"></div>
+		<div class="class-name">.flaticon-earth131</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-circle-of-arrows_44826">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth132"></div>
+		<div class="class-name">.flaticon-earth132</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe_44827">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth133"></div>
+		<div class="class-name">.flaticon-earth133</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-an-arrow_44830">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth134"></div>
+		<div class="class-name">.flaticon-earth134</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-symbol_44838">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth135"></div>
+		<div class="class-name">.flaticon-earth135</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-educational-tool_44844">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth136"></div>
+		<div class="class-name">.flaticon-earth136</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-circular-arrow-around_44848">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth137"></div>
+		<div class="class-name">.flaticon-earth137</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-circular-pattern-around_44859">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth138"></div>
+		<div class="class-name">.flaticon-earth138</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circular-symbol-with-dots-and-lines-grid_44872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth139"></div>
+		<div class="class-name">.flaticon-earth139</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-horizontal-lines-pattern_44902">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth140"></div>
+		<div class="class-name">.flaticon-earth140</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-thin-waves-pattern_44910">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth141"></div>
+		<div class="class-name">.flaticon-earth141</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-on-cellular-phone-screen_44914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth142"></div>
+		<div class="class-name">.flaticon-earth142</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-on-placeholder_44923">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth143"></div>
+		<div class="class-name">.flaticon-earth143</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-recycle-arrows-triangular-symbol-in-the-middle_44939">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth144"></div>
+		<div class="class-name">.flaticon-earth144</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_44947">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth145"></div>
+		<div class="class-name">.flaticon-earth145</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-grid-in-a-circle_44951">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth146"></div>
+		<div class="class-name">.flaticon-earth146</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-continents_44953">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth147"></div>
+		<div class="class-name">.flaticon-earth147</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-on-a-hand_44965">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth148"></div>
+		<div class="class-name">.flaticon-earth148</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-with-asia-and-oceania_44983">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth149"></div>
+		<div class="class-name">.flaticon-earth149</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-on-monitor-screen-of-an-opened-laptop_44993">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth150"></div>
+		<div class="class-name">.flaticon-earth150</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-americas_44996">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth151"></div>
+		<div class="class-name">.flaticon-earth151</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-grid-and-a-flag_44997">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth152"></div>
+		<div class="class-name">.flaticon-earth152</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-on-digital-tool_45006">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth153"></div>
+		<div class="class-name">.flaticon-earth153</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-grid-with-euros-and-dollars-signs_45007">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth154"></div>
+		<div class="class-name">.flaticon-earth154</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-symbol-with-business-graphic_45008">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth155"></div>
+		<div class="class-name">.flaticon-earth155</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-circular-symbol-variant_45020">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth156"></div>
+		<div class="class-name">.flaticon-earth156</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-circular-dark-symbol_45023">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth157"></div>
+		<div class="class-name">.flaticon-earth157</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-on-a-hand_45027">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth158"></div>
+		<div class="class-name">.flaticon-earth158</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-map-paper_45034">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth159"></div>
+		<div class="class-name">.flaticon-earth159</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-placeholder-sign_45040">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth160"></div>
+		<div class="class-name">.flaticon-earth160</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-continents-in-an-oval_45047">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth161"></div>
+		<div class="class-name">.flaticon-earth161</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_45056">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth162"></div>
+		<div class="class-name">.flaticon-earth162</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-over-two-hands_45064">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth163"></div>
+		<div class="class-name">.flaticon-earth163</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-and-arrows-circle_45066">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth164"></div>
+		<div class="class-name">.flaticon-earth164</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-tool_45069">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth165"></div>
+		<div class="class-name">.flaticon-earth165</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-euro-sign_45073">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth166"></div>
+		<div class="class-name">.flaticon-earth166</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circular-continents-shape-in-a-square_45080">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth167"></div>
+		<div class="class-name">.flaticon-earth167</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-in-flower-center_45094">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth168"></div>
+		<div class="class-name">.flaticon-earth168</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-globe-on-hands-couple_45096">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth169"></div>
+		<div class="class-name">.flaticon-earth169</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-three-arrows_45110">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth170"></div>
+		<div class="class-name">.flaticon-earth170</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-dollar-sign-rotated-to-left_45158">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth171"></div>
+		<div class="class-name">.flaticon-earth171</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-tool-for-education-with-maps_45166">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth172"></div>
+		<div class="class-name">.flaticon-earth172</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-in-atom-shape_45168">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth173"></div>
+		<div class="class-name">.flaticon-earth173</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-in-heart-outline_45169">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth174"></div>
+		<div class="class-name">.flaticon-earth174</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-map-in-an-oval_45170">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth175"></div>
+		<div class="class-name">.flaticon-earth175</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-heart-outline_45174">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth176"></div>
+		<div class="class-name">.flaticon-earth176</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_45177">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth177"></div>
+		<div class="class-name">.flaticon-earth177</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-with-a-placeholder_45178">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth178"></div>
+		<div class="class-name">.flaticon-earth178</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-parallel-lines-grid_45371">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth179"></div>
+		<div class="class-name">.flaticon-earth179</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_45373">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth187"></div>
+		<div class="class-name">.flaticon-earth187</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-of-the-planet_48701">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth188"></div>
+		<div class="class-name">.flaticon-earth188</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-a-house-in-a-placeholder-on-africa_48702">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth189"></div>
+		<div class="class-name">.flaticon-earth189</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-a-placeholder-on-north-america_48704">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth190"></div>
+		<div class="class-name">.flaticon-earth190</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-pictures_48792">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth48"></div>
+		<div class="class-name">.flaticon-earth48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-house_43992">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth50"></div>
+		<div class="class-name">.flaticon-earth50</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-right-and-left-arrows_44373">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth51"></div>
+		<div class="class-name">.flaticon-earth51</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-education-tool_44376">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth52"></div>
+		<div class="class-name">.flaticon-earth52</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-24-hours-symbol_44380">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth53"></div>
+		<div class="class-name">.flaticon-earth53</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth_44386">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth54"></div>
+		<div class="class-name">.flaticon-earth54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-spiral-arrow-around_44393">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth55"></div>
+		<div class="class-name">.flaticon-earth55</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-placeholder-sign_44397">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth56"></div>
+		<div class="class-name">.flaticon-earth56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth_44400">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth57"></div>
+		<div class="class-name">.flaticon-earth57</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-grid-symbol-with-an-arrow_44405">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth58"></div>
+		<div class="class-name">.flaticon-earth58</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circle-with-a-grid_44411">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth59"></div>
+		<div class="class-name">.flaticon-earth59</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-a-monitor_44419">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth60"></div>
+		<div class="class-name">.flaticon-earth60</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-and-laptop_44425">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth61"></div>
+		<div class="class-name">.flaticon-earth61</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-day-circular-symbol_44429">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth62"></div>
+		<div class="class-name">.flaticon-earth62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-heart-shape_44437">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth63"></div>
+		<div class="class-name">.flaticon-earth63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-a-book_44439">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth64"></div>
+		<div class="class-name">.flaticon-earth64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol-on-monitor-screen_44447">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth65"></div>
+		<div class="class-name">.flaticon-earth65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe_44456">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth66"></div>
+		<div class="class-name">.flaticon-earth66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth_44457">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth67"></div>
+		<div class="class-name">.flaticon-earth67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-circular-symbol_44458">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth68"></div>
+		<div class="class-name">.flaticon-earth68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-variant_44469">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth69"></div>
+		<div class="class-name">.flaticon-earth69</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-in-placeholder_44470">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth70"></div>
+		<div class="class-name">.flaticon-earth70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-and-business-graphic_44472">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth71"></div>
+		<div class="class-name">.flaticon-earth71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-grid-and-continents-shapes_44485">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth72"></div>
+		<div class="class-name">.flaticon-earth72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-paradise_44489">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth73"></div>
+		<div class="class-name">.flaticon-earth73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-variant-with-ellipses-and-stars_44498">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth74"></div>
+		<div class="class-name">.flaticon-earth74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-with-continents-and-grid_44505">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth75"></div>
+		<div class="class-name">.flaticon-earth75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-on-focus_44517">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth76"></div>
+		<div class="class-name">.flaticon-earth76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol_44527">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth77"></div>
+		<div class="class-name">.flaticon-earth77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-continents-maps_44536">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth78"></div>
+		<div class="class-name">.flaticon-earth78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-with-clouds-around_44544">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth79"></div>
+		<div class="class-name">.flaticon-earth79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circle-with-star-grid_44546">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth80"></div>
+		<div class="class-name">.flaticon-earth80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-circle-with-up-arrows_44548">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth81"></div>
+		<div class="class-name">.flaticon-earth81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-in-atom-symbol_44556">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth82"></div>
+		<div class="class-name">.flaticon-earth82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-recycle-symbol_44559">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth83"></div>
+		<div class="class-name">.flaticon-earth83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-of-grid-with-a-placeholder-of-location_44563">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth84"></div>
+		<div class="class-name">.flaticon-earth84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-and-a-tablet-with-text-on-screen_44566">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth85"></div>
+		<div class="class-name">.flaticon-earth85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-parallel-horizontal-lines-pattern_44574">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth86"></div>
+		<div class="class-name">.flaticon-earth86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-with-continents-silhouettes_44575">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth87"></div>
+		<div class="class-name">.flaticon-earth87</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-a-cellphone-in-the-middle_44600">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth88"></div>
+		<div class="class-name">.flaticon-earth88</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe-rotating-tool-for-class_44608">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth89"></div>
+		<div class="class-name">.flaticon-earth89</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-half-grid-shape-with-business-symbols_44613">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth90"></div>
+		<div class="class-name">.flaticon-earth90</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-with-arrows-circle_44629">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth91"></div>
+		<div class="class-name">.flaticon-earth91</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-24-hours-sign-and-circle-of-arrows-around_44634">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth92"></div>
+		<div class="class-name">.flaticon-earth92</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-circle-with-circular-arrows_44636">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth93"></div>
+		<div class="class-name">.flaticon-earth93</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-with-horizontal-stripes-pattern_44642">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth94"></div>
+		<div class="class-name">.flaticon-earth94</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-symbol_44645">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth95"></div>
+		<div class="class-name">.flaticon-earth95</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-with-dollar-sign_44649">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth96"></div>
+		<div class="class-name">.flaticon-earth96</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-symbol-in-monitor-screen_44652">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth97"></div>
+		<div class="class-name">.flaticon-earth97</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-shape-in-a-flower-outline_44656">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth98"></div>
+		<div class="class-name">.flaticon-earth98</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-grid-in-placeholder_44657">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-earth99"></div>
+		<div class="class-name">.flaticon-earth99</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/earth-globe_44661">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-euro46"></div>
+		<div class="class-name">.flaticon-euro46</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/euro-sign-on-world-grid_45104">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart249"></div>
+		<div class="class-name">.flaticon-heart249</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-with-grid_44524">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart250"></div>
+		<div class="class-name">.flaticon-heart250</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-in-earth-grid_44702">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart251"></div>
+		<div class="class-name">.flaticon-heart251</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-with-grid_44770">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-heart253"></div>
+		<div class="class-name">.flaticon-heart253</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/heart-with-thin-earth-continents-outlines-inside_44851">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-house92"></div>
+		<div class="class-name">.flaticon-house92</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/house-on-earth-grid_45051">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international10"></div>
+		<div class="class-name">.flaticon-international10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international-call-symbol-for-interface-of-half-earth-grid-with-a-phone-auricular_44918">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international9"></div>
+		<div class="class-name">.flaticon-international9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international-call-symbol-of-earth-grid-with-a-phone-auricular-on-top_44580">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man231"></div>
+		<div class="class-name">.flaticon-man231</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-in-earth-grid_45032">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man233"></div>
+		<div class="class-name">.flaticon-man233</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-in-earth-grid_45370">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-persons7"></div>
+		<div class="class-name">.flaticon-persons7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/persons-couple-with-a-heart-on-planet-grid_44398">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-phone320"></div>
+		<div class="class-name">.flaticon-phone320</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/phone-auricular-symbol-of-call-in-world-grid-international-sign_45045">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-photo145"></div>
+		<div class="class-name">.flaticon-photo145</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/photo-camera-in-world-grid_45042">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sailingboat"></div>
+		<div class="class-name">.flaticon-sailingboat</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sailing-boat-travelling-around-the-world_44875">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-saturn10"></div>
+		<div class="class-name">.flaticon-saturn10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/saturn-planet-symbol-variant_45187">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-saturn8"></div>
+		<div class="class-name">.flaticon-saturn8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/saturn-with-stars_44406">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-saturn9"></div>
+		<div class="class-name">.flaticon-saturn9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/saturn-planet_44857">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching26"></div>
+		<div class="class-name">.flaticon-searching26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-on-earth_45113">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-spherical2"></div>
+		<div class="class-name">.flaticon-spherical2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/spherical-shape-with-vertical-lines_45054">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-star131"></div>
+		<div class="class-name">.flaticon-star131</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/star-grid-on-earth-symbol_45116">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-striped11"></div>
+		<div class="class-name">.flaticon-striped11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/striped-circle_45015">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-travelling"></div>
+		<div class="class-name">.flaticon-travelling</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/travelling-by-airplane-around-the-earth_44448">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two186"></div>
+		<div class="class-name">.flaticon-two186</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-persons-talking-each-other-at-distance-in-different-parts-of-the-planet_44658">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world74"></div>
+		<div class="class-name">.flaticon-world74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world_44588">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world76"></div>
+		<div class="class-name">.flaticon-world76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-grid-and-persons-couple-with-a-heart-symbol_44971">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-2439&quot;&gt;&lt;/i&gt; <i class="flaticon-2439"></i></p><p>&lt;i class=&quot;flaticon-airplane62&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane62"></i></p><p>&lt;i class=&quot;flaticon-airplane63&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane63"></i></p><p>&lt;i class=&quot;flaticon-airplane64&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane64"></i></p><p>&lt;i class=&quot;flaticon-airplane65&quot;&gt;&lt;/i&gt; <i class="flaticon-airplane65"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-atom17&quot;&gt;&lt;/span&gt; <span class="flaticon-atom17"></span></p><p>&lt;span class=&quot;flaticon-black286&quot;&gt;&lt;/span&gt; <span class="flaticon-black286"></span></p><p>&lt;span class=&quot;flaticon-circle68&quot;&gt;&lt;/span&gt; <span class="flaticon-circle68"></span></p><p>&lt;span class=&quot;flaticon-circle70&quot;&gt;&lt;/span&gt; <span class="flaticon-circle70"></span></p><p>&lt;span class=&quot;flaticon-circle71&quot;&gt;&lt;/span&gt; <span class="flaticon-circle71"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-circle72&quot;&gt;&lt;/span&gt; <span class="flaticon-circle72"></span></p><p>&lt;i class=&quot;flaticon-circle73&quot;&gt;&lt;/i&gt; <i class="flaticon-circle73"></i></p><p>&lt;i class=&quot;flaticon-circle74&quot;&gt;&lt;/i&gt; <i class="flaticon-circle74"></i></p><p>&lt;i class=&quot;flaticon-circular128&quot;&gt;&lt;/i&gt; <i class="flaticon-circular128"></i></p><p>&lt;i class=&quot;flaticon-compass61&quot;&gt;&lt;/i&gt; <i class="flaticon-compass61"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-compass62&quot;&gt;&lt;/span&gt; <span class="flaticon-compass62"></span></p><p>&lt;span class=&quot;flaticon-compass63&quot;&gt;&lt;/span&gt; <span class="flaticon-compass63"></span></p><p>&lt;span class=&quot;flaticon-compass68&quot;&gt;&lt;/span&gt; <span class="flaticon-compass68"></span></p><p>&lt;span class=&quot;flaticon-continents&quot;&gt;&lt;/span&gt; <span class="flaticon-continents"></span></p><p>&lt;span class=&quot;flaticon-dots3&quot;&gt;&lt;/span&gt; <span class="flaticon-dots3"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

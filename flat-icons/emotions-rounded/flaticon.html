@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-anger6"></div>
+		<div class="class-name">.flaticon-anger6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/anger-emoticon-square-face_42887">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-anger7"></div>
+		<div class="class-name">.flaticon-anger7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/anger-on-emoticon-face-of-rounded-square-outline_42904">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-angry23"></div>
+		<div class="class-name">.flaticon-angry23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/angry-emoticon-face-with-opened-mouth-in-rounded-square-outline_42818">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-angry24"></div>
+		<div class="class-name">.flaticon-angry24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/angry-emoticon-face_42842">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-angry25"></div>
+		<div class="class-name">.flaticon-angry25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/angry-emoticon-square-face_42843">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-angry26"></div>
+		<div class="class-name">.flaticon-angry26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/angry-emoticon-square-face_42851">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-angry27"></div>
+		<div class="class-name">.flaticon-angry27</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/angry-emoticon-square-face-with-closed-eyes_42858">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-annulled3"></div>
+		<div class="class-name">.flaticon-annulled3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/annulled-emoticon-square-face_42874">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-bad5"></div>
+		<div class="class-name">.flaticon-bad5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/bad-emoticon-square-face_42867">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-black267"></div>
+		<div class="class-name">.flaticon-black267</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/black-eye-and-opened-mouth-emoticon-square-face_42885">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-crying7"></div>
+		<div class="class-name">.flaticon-crying7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/crying-emoticon-rounded-square-face_42888">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-disappointed3"></div>
+		<div class="class-name">.flaticon-disappointed3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/disappointed-emoticon-face_42850">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-disgusted3"></div>
+		<div class="class-name">.flaticon-disgusted3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/disgusted-emoticon-square-face_42852">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-doubt3"></div>
+		<div class="class-name">.flaticon-doubt3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/doubt-on-emoticon-square-face_42908">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon100"></div>
+		<div class="class-name">.flaticon-emoticon100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-in-love-face-in-a-square_42897">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon101"></div>
+		<div class="class-name">.flaticon-emoticon101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-in-love-face-with-heart-shaped-eyes-in-square-outline_42899">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon102"></div>
+		<div class="class-name">.flaticon-emoticon102</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-closed-eyes-and-big-lips_42907">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon81"></div>
+		<div class="class-name">.flaticon-emoticon81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-criminal-face-with-eyes-mask_42814">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon82"></div>
+		<div class="class-name">.flaticon-emoticon82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-smile_42815">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon83"></div>
+		<div class="class-name">.flaticon-emoticon83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-curved-mouth-expression_42819">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon84"></div>
+		<div class="class-name">.flaticon-emoticon84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-happy-smiling-square-face-shape_42828">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon85"></div>
+		<div class="class-name">.flaticon-emoticon85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-smiling-face-with-closed-eyes_42829">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon86"></div>
+		<div class="class-name">.flaticon-emoticon86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-tongue-out_42839">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon87"></div>
+		<div class="class-name">.flaticon-emoticon87</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-face-with-the-mouth-at-one-side-like-a-small-smile-in-a-rounded-square_42840">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon88"></div>
+		<div class="class-name">.flaticon-emoticon88</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-straight-mouth_42841">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon89"></div>
+		<div class="class-name">.flaticon-emoticon89</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-closed-eyes-and-straight-mouth-line_42847">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon90"></div>
+		<div class="class-name">.flaticon-emoticon90</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-a-smile_42854">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon91"></div>
+		<div class="class-name">.flaticon-emoticon91</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-straight-mouth-and-eyes-lines_42857">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon92"></div>
+		<div class="class-name">.flaticon-emoticon92</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-face-of-doubt_42859">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon93"></div>
+		<div class="class-name">.flaticon-emoticon93</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-smiling-square-face_42860">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon94"></div>
+		<div class="class-name">.flaticon-emoticon94</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-rounded-face-with-tongue-out-of-the-mouth_42864">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon95"></div>
+		<div class="class-name">.flaticon-emoticon95</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-closed-eyes-and-tongue-out_42866">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon96"></div>
+		<div class="class-name">.flaticon-emoticon96</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-surprised-face-with-open-circular-mouth_42880">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon97"></div>
+		<div class="class-name">.flaticon-emoticon97</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-face-square-with-tongue-out-of-the-mouth-and-closed-eyes_42882">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon98"></div>
+		<div class="class-name">.flaticon-emoticon98</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-square-face-with-closed-eyes-and-mouth-of-straight-lines_42890">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticon99"></div>
+		<div class="class-name">.flaticon-emoticon99</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticon-rounded-square-criminal-face-with-covered-eyes-with-a-mask_42892">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticons10"></div>
+		<div class="class-name">.flaticon-emoticons10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticons-face-with-straight-mouth-line-and-closed-eyes_42827">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticons11"></div>
+		<div class="class-name">.flaticon-emoticons11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticons-square-face-with-sunglasses_42845">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-emoticons9"></div>
+		<div class="class-name">.flaticon-emoticons9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/emoticons-square-face-with-closed-eyes-and-opened-mouth_42816">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-evil6"></div>
+		<div class="class-name">.flaticon-evil6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/evil-smile-square-emoticon-face_42884">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-furious3"></div>
+		<div class="class-name">.flaticon-furious3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/furious-emoticon-square-face_42872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy38"></div>
+		<div class="class-name">.flaticon-happy38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-smiling-emoticon-square-face-with-sunglasses_42821">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy39"></div>
+		<div class="class-name">.flaticon-happy39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-smiling-emoticon-face-with-open-mouth_42825">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy40"></div>
+		<div class="class-name">.flaticon-happy40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-emoticon_42826">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy41"></div>
+		<div class="class-name">.flaticon-happy41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-smiling-emoticon-square-face_42834">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy42"></div>
+		<div class="class-name">.flaticon-happy42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-emoticon-with-one-tooth_42848">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy43"></div>
+		<div class="class-name">.flaticon-happy43</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-smiling-emoticon-square-face_42896">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-happy44"></div>
+		<div class="class-name">.flaticon-happy44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/happy-emoticon-smiling-square_42900">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-intellectual3"></div>
+		<div class="class-name">.flaticon-intellectual3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/intellectual-emoticon-square-face_42853">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male195"></div>
+		<div class="class-name">.flaticon-male195</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-square-face-with-glasses-and-mustache_42810">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mute24"></div>
+		<div class="class-name">.flaticon-mute24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mute-emoticon-square-face_42868">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mute25"></div>
+		<div class="class-name">.flaticon-mute25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mute-emoticon-square-face_42873">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-nerd6"></div>
+		<div class="class-name">.flaticon-nerd6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/nerd-happy-smiling-face-in-rounded-square-face_42863">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-nerd7"></div>
+		<div class="class-name">.flaticon-nerd7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/nerd-emoticon-square-face_42906">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-pirate5"></div>
+		<div class="class-name">.flaticon-pirate5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/pirate-emoticon-face-with-one-covered-eye-in-square-outline_42905">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-resting4"></div>
+		<div class="class-name">.flaticon-resting4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/resting-emoticon-square-face_42838">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad34"></div>
+		<div class="class-name">.flaticon-sad34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-suffering-crying-emoticon-face_42811">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad35"></div>
+		<div class="class-name">.flaticon-sad35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-sleepy-emoticon-face-square_42812">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad36"></div>
+		<div class="class-name">.flaticon-sad36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-emoticon-square-face-with-closed-eyes_42831">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad37"></div>
+		<div class="class-name">.flaticon-sad37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-emoticon-square-face_42833">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad38"></div>
+		<div class="class-name">.flaticon-sad38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-rounded-square-emoticon_42849">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sad39"></div>
+		<div class="class-name">.flaticon-sad39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sad-face-in-rounded-square_42901">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-scared3"></div>
+		<div class="class-name">.flaticon-scared3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/scared-emoticon-square-face_42822">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-singing4"></div>
+		<div class="class-name">.flaticon-singing4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/singing-emoticon-square-face_42869">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sleeping8"></div>
+		<div class="class-name">.flaticon-sleeping8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sleeping-face-with-opened-mouth-in-square-outline_42823">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sleepy6"></div>
+		<div class="class-name">.flaticon-sleepy6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sleepy-emoticon-square-face_42820">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sleepy7"></div>
+		<div class="class-name">.flaticon-sleepy7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sleepy-face-square-shape_42883">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley36"></div>
+		<div class="class-name">.flaticon-smiley36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-with-tongue-in-a-square-shape_42824">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley37"></div>
+		<div class="class-name">.flaticon-smiley37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-square-face-with-broken-teeth_42837">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley38"></div>
+		<div class="class-name">.flaticon-smiley38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-square-face_42846">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley39"></div>
+		<div class="class-name">.flaticon-smiley39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-of-square-rounded-face_42855">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley40"></div>
+		<div class="class-name">.flaticon-smiley40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-with-closed-eyes-rounded-square-face_42862">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley41"></div>
+		<div class="class-name">.flaticon-smiley41</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-of-square-face-shape_42865">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiley42"></div>
+		<div class="class-name">.flaticon-smiley42</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiley-square-face_42878">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling33"></div>
+		<div class="class-name">.flaticon-smiling33</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-emoticon-square-face_42809">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling34"></div>
+		<div class="class-name">.flaticon-smiling34</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-emoticon-with-raised-eyebrows-and-closed-eyes_42813">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling35"></div>
+		<div class="class-name">.flaticon-smiling35</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-happy-emoticon-square-face-with-eyes-like-stars_42871">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling36"></div>
+		<div class="class-name">.flaticon-smiling36</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-emoticon-square-face_42877">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling37"></div>
+		<div class="class-name">.flaticon-smiling37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-emoticon-square-face-with-closed-eyes_42881">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling38"></div>
+		<div class="class-name">.flaticon-smiling38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-emoticon-face-in-a-square_42889">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling39"></div>
+		<div class="class-name">.flaticon-smiling39</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-happy-emoticon-face_42891">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-smiling40"></div>
+		<div class="class-name">.flaticon-smiling40</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/smiling-square-face_42903">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-square103"></div>
+		<div class="class-name">.flaticon-square103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/square-emoticon-angry-face_42875">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-student12"></div>
+		<div class="class-name">.flaticon-student12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/student-smiling-emoticon-square-face_42886">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-surprised18"></div>
+		<div class="class-name">.flaticon-surprised18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/surprised-rounded-square-face_42817">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-surprised19"></div>
+		<div class="class-name">.flaticon-surprised19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/surprised-emoticon-square-face-with-open-eyes-and-mouth_42835">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-surprised20"></div>
+		<div class="class-name">.flaticon-surprised20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/surprised-emoticon-square-face_42879">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-surprised21"></div>
+		<div class="class-name">.flaticon-surprised21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/surprised-square-face-with-eyes-and-mouth-opened_42893">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sweating3"></div>
+		<div class="class-name">.flaticon-sweating3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sweating-emoticon-square-face_42894">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-teardrop4"></div>
+		<div class="class-name">.flaticon-teardrop4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/teardrop-falling-on-sad-emoticon-face_42895">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tired3"></div>
+		<div class="class-name">.flaticon-tired3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tired-emoticon-face-with-open-mouth-and-closed-eyes_42902">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-very7"></div>
+		<div class="class-name">.flaticon-very7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/very-angry-emoticon-square-face_42898">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wink10"></div>
+		<div class="class-name">.flaticon-wink10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wink-emoticon-of-rounded-square-face_42876">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wink9"></div>
+		<div class="class-name">.flaticon-wink9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wink-face-square_42830">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-winking8"></div>
+		<div class="class-name">.flaticon-winking8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/winking-emoticon-with-tongue-out-of-mouth-and-square-face-shape_42832">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-winking9"></div>
+		<div class="class-name">.flaticon-winking9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/winking-emoticon-smiling-face-with-tongue-out-of-the-mouth-in-square-rounded-outline-shape_42861">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-wound4"></div>
+		<div class="class-name">.flaticon-wound4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/wound-cross-on-emoticon-sad-face-of-rounded-square-shape_42870">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yawning10"></div>
+		<div class="class-name">.flaticon-yawning10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yawning-emoticon-face-in-rounded-square-with-open-oval-mouth-and-closed-small-eyes_42844">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yawning11"></div>
+		<div class="class-name">.flaticon-yawning11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yawning-emoticon-square-face_42856">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yawning9"></div>
+		<div class="class-name">.flaticon-yawning9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yawning-emoticon-square-face_42836">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-anger6&quot;&gt;&lt;/i&gt; <i class="flaticon-anger6"></i></p><p>&lt;i class=&quot;flaticon-anger7&quot;&gt;&lt;/i&gt; <i class="flaticon-anger7"></i></p><p>&lt;i class=&quot;flaticon-angry23&quot;&gt;&lt;/i&gt; <i class="flaticon-angry23"></i></p><p>&lt;i class=&quot;flaticon-angry24&quot;&gt;&lt;/i&gt; <i class="flaticon-angry24"></i></p><p>&lt;i class=&quot;flaticon-angry25&quot;&gt;&lt;/i&gt; <i class="flaticon-angry25"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-angry26&quot;&gt;&lt;/span&gt; <span class="flaticon-angry26"></span></p><p>&lt;span class=&quot;flaticon-angry27&quot;&gt;&lt;/span&gt; <span class="flaticon-angry27"></span></p><p>&lt;span class=&quot;flaticon-annulled3&quot;&gt;&lt;/span&gt; <span class="flaticon-annulled3"></span></p><p>&lt;span class=&quot;flaticon-bad5&quot;&gt;&lt;/span&gt; <span class="flaticon-bad5"></span></p><p>&lt;span class=&quot;flaticon-black267&quot;&gt;&lt;/span&gt; <span class="flaticon-black267"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-crying7&quot;&gt;&lt;/span&gt; <span class="flaticon-crying7"></span></p><p>&lt;i class=&quot;flaticon-disappointed3&quot;&gt;&lt;/i&gt; <i class="flaticon-disappointed3"></i></p><p>&lt;i class=&quot;flaticon-disgusted3&quot;&gt;&lt;/i&gt; <i class="flaticon-disgusted3"></i></p><p>&lt;i class=&quot;flaticon-doubt3&quot;&gt;&lt;/i&gt; <i class="flaticon-doubt3"></i></p><p>&lt;i class=&quot;flaticon-emoticon100&quot;&gt;&lt;/i&gt; <i class="flaticon-emoticon100"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-emoticon101&quot;&gt;&lt;/span&gt; <span class="flaticon-emoticon101"></span></p><p>&lt;span class=&quot;flaticon-emoticon102&quot;&gt;&lt;/span&gt; <span class="flaticon-emoticon102"></span></p><p>&lt;span class=&quot;flaticon-emoticon81&quot;&gt;&lt;/span&gt; <span class="flaticon-emoticon81"></span></p><p>&lt;span class=&quot;flaticon-emoticon82&quot;&gt;&lt;/span&gt; <span class="flaticon-emoticon82"></span></p><p>&lt;span class=&quot;flaticon-emoticon83&quot;&gt;&lt;/span&gt; <span class="flaticon-emoticon83"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

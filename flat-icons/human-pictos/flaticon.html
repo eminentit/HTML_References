@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flaticon WebFont</title>
+    <link rel="stylesheet" type="text/css" href="flaticon.css">
+    <meta charset="UTF-8">
+    <style>
+    body {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 16px;
+        padding: 20px;
+        color:#333;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .image p {
+		font-size: 12px;
+		margin: 0px;
+		clear: none;
+		width: 300px;
+		line-height: 40px;
+	}
+    .text {
+        float: left;
+        font-size:14px;
+        margin-top: 15px;
+    }
+    .text ul {
+        margin-left:0px;
+        color:#111;
+        margin-bottom:20px;
+    }
+    .text .ex {
+        font-size:12px;
+        color:#666;
+        margin-left:35px;
+        display:block;
+    }
+    .text ul li {
+        margin-top:10px;
+        list-style:none;
+    }
+    .num {
+        background:#66A523;
+        color:#fff;
+        border-radius:20px;
+        padding:1px;
+        display:inline-block;
+        width:22px;
+        height:22px;
+        text-align:center;
+        margin-right: 5px;
+    }
+    .text ul strong {
+        font-weight:normal;
+        color:#000;
+    }
+    .image {
+        width: 280px;
+        float: left;
+        margin-bottom: 15px;
+        margin-right: 30px;
+    }
+    #glyphs {
+        clear: both;
+    }
+    .image p:nth-child(even) i {
+        clear: none;
+    }
+    .glyph {
+        display: inline-block;
+        width: 120px;
+        margin: 10px;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"Flaticon";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #666;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 12px;
+    }
+    .author-name {
+		font-size: 10px;
+	}
+	a{
+		color: #66A523;
+	}
+    .instructions {
+        font-style:italic;
+        font-size:22px;
+        margin-bottom:10px;
+    }
+    .iconsuse {
+        font-size:22px;
+        font-style:italic;
+        padding-top:20px;
+        margin-top:20px;
+        border-top:1px solid #bbb;
+    }
+    .usetitle {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#66A523;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"Flaticon";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    h1.logo {
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin-top: -16px;
+        text-transform: lowercase;
+        border-bottom:1px solid #bbb;
+    }
+    h1.logo strong {
+        font-size: 16px;
+        font-family:sans-serif;
+        font-weight:normal;
+        color:#333;
+    }
+    h1.logo a {
+        color:#34302d;
+        text-decoration: none;
+    }
+    h1.logo a span {
+        color:#66A523;
+    }
+    #footer {
+        padding-top:40px;
+        clear:both;
+        text-align:center;
+    }
+    #footer a {
+        color:#66A523;
+    }
+    textarea {
+		margin: 0px;
+		width: 800px;
+		height: 150px;
+		border: 1px solid #CCC;
+		resize: none;
+		background: #EEE;
+    }
+    .author-link, .attrDiv a{
+    	font-size: 12px;
+    	color: #333;
+    	text-decoration: none;
+    }
+    .external {
+    	display: block;
+    }
+    .attrDiv {
+		font-size: 12px;
+	}
+    .attribution {
+        border-top: 1px solid #AAA;
+        margin: 10px 0;
+        padding-top: 15px;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            <a href="http://www.flaticon.com">
+                <span>FLAT</span>ICON</a>
+            <strong>Font Demo</strong>
+        </h1>
+    </header>
+
+    <section class="demo">
+        <div class="text">
+
+            <div class="instructions">Instructions:</div>
+
+            <ul>
+                <li>
+                    <p>
+                        <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+                </li>
+                <li>
+                    <p>
+                        <span class="num">2</span>Add the CSS link to your website source code on header.
+                        <br />
+                        <span class="ex">&lt;head&gt;
+                            <br/>...
+                            <br/>&lt;link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css"&gt;
+                            <br/>...
+                            <br/>&lt;/head&gt;</span>
+                </li>
+
+                <li>
+                    <p>
+                        <span class="num">3</span>Use the icon class on "display:inline" elements:
+                        <br />
+                        <span class="ex">Use example: &lt;i class=&quot;flaticon-airplane49&quot;&gt;&lt;/i&gt; or &lt;span class=&quot;flaticon-airplane49&quot;&gt;&lt;/span&gt;</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="glyphs"><div class="glyph">
+		<div class="glyph-icon flaticon-adult1"></div>
+		<div class="class-name">.flaticon-adult1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/adult-and-child-males_46698">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-adult2"></div>
+		<div class="class-name">.flaticon-adult2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/adult-and-minor_46740">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-adult3"></div>
+		<div class="class-name">.flaticon-adult3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/adult-and-child-silhouettes_47347">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-adults"></div>
+		<div class="class-name">.flaticon-adults</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/adults-couple-with-a-child_46928">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-applicants"></div>
+		<div class="class-name">.flaticon-applicants</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/applicants-for-a-business-job_46852">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-architect"></div>
+		<div class="class-name">.flaticon-architect</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/architect-with-building-project_46923">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-ascending10"></div>
+		<div class="class-name">.flaticon-ascending10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/ascending-graphic-of-a-businessman_46872">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-baby138"></div>
+		<div class="class-name">.flaticon-baby138</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/baby-in-mother-uterus_46629">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-balance5"></div>
+		<div class="class-name">.flaticon-balance5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/balance-man-posture_46685">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-balanced"></div>
+		<div class="class-name">.flaticon-balanced</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/balanced-symbol-with-a-man-and-a-flag_46893">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-boy38"></div>
+		<div class="class-name">.flaticon-boy38</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/boy-jumping-rope_46925">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business103"></div>
+		<div class="class-name">.flaticon-business103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-meeting_46614">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business104"></div>
+		<div class="class-name">.flaticon-business104</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-standing-with-a-dollar-coin_46656">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business105"></div>
+		<div class="class-name">.flaticon-business105</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-graphic-of-hierarchy_46659">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business106"></div>
+		<div class="class-name">.flaticon-business106</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-with-triangular-flag-on-a-pole_46666">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business107"></div>
+		<div class="class-name">.flaticon-business107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-scale-with-a-man-and-resources-gears-symbol_46725">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business108"></div>
+		<div class="class-name">.flaticon-business108</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-meeting-of-males_46755">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business109"></div>
+		<div class="class-name">.flaticon-business109</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-time-for-two-businessmen_46758">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business110"></div>
+		<div class="class-name">.flaticon-business110</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-pointing-to-his-left_46781">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business111"></div>
+		<div class="class-name">.flaticon-business111</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-with-archives_46782">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business112"></div>
+		<div class="class-name">.flaticon-business112</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-people-meeting_46789">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business113"></div>
+		<div class="class-name">.flaticon-business113</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-throwing-papers_46790">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business114"></div>
+		<div class="class-name">.flaticon-business114</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-men-around-target-concentric-circles-symbol_46804">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business115"></div>
+		<div class="class-name">.flaticon-business115</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-with-circular-stats-graphic_46817">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business116"></div>
+		<div class="class-name">.flaticon-business116</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-with-clock-to-control-time-of-work_46819">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business117"></div>
+		<div class="class-name">.flaticon-business117</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business_46837">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business118"></div>
+		<div class="class-name">.flaticon-business118</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-resources-graphic-of-a-businessman_46869">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business119"></div>
+		<div class="class-name">.flaticon-business119</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-graphics_46920">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business120"></div>
+		<div class="class-name">.flaticon-business120</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-graphic-triangle_46972">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-business122"></div>
+		<div class="class-name">.flaticon-business122</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/business-man-showing-blank-publicity-board_46991">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman100"></div>
+		<div class="class-name">.flaticon-businessman100</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-search-symbol_46777">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman101"></div>
+		<div class="class-name">.flaticon-businessman101</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-pointing-a-board-with-stats-graphic-of-business_46779">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman103"></div>
+		<div class="class-name">.flaticon-businessman103</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-on-graphic-of-business-resources_46792">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman104"></div>
+		<div class="class-name">.flaticon-businessman104</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-with-puzzle-piece_46794">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman105"></div>
+		<div class="class-name">.flaticon-businessman105</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-talking-about-ecological-business-strategies_46809">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman106"></div>
+		<div class="class-name">.flaticon-businessman106</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-holding-blank-billboard_46825">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman107"></div>
+		<div class="class-name">.flaticon-businessman107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-with-graphic-on-a-board_46836">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman110"></div>
+		<div class="class-name">.flaticon-businessman110</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-balancing-times_46846">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman111"></div>
+		<div class="class-name">.flaticon-businessman111</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-sitting-on-his-office-desk_46849">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman112"></div>
+		<div class="class-name">.flaticon-businessman112</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-going-down-by-stair-steps-with-suitcase-in-his-right-hand_46857">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman113"></div>
+		<div class="class-name">.flaticon-businessman113</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-and-oval-world-grid-behind_46896">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman114"></div>
+		<div class="class-name">.flaticon-businessman114</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman_46904">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman115"></div>
+		<div class="class-name">.flaticon-businessman115</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-international-communication-tool_46924">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman116"></div>
+		<div class="class-name">.flaticon-businessman116</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-resources-graphic_46929">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman118"></div>
+		<div class="class-name">.flaticon-businessman118</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-showing-stats-graphic_46934">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman119"></div>
+		<div class="class-name">.flaticon-businessman119</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-on-oval-planet-grid_46952">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman120"></div>
+		<div class="class-name">.flaticon-businessman120</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-working-online-with-a-laptop_46960">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman121"></div>
+		<div class="class-name">.flaticon-businessman121</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-email-symbol_46969">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman122"></div>
+		<div class="class-name">.flaticon-businessman122</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-holding-books_46973">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman123"></div>
+		<div class="class-name">.flaticon-businessman123</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-showing-stats-graphic_46984">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman124"></div>
+		<div class="class-name">.flaticon-businessman124</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-drawer-furniture_46995">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman125"></div>
+		<div class="class-name">.flaticon-businessman125</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-running-in-a-wheel_46996">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman126"></div>
+		<div class="class-name">.flaticon-businessman126</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-and-clock_47005">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman127"></div>
+		<div class="class-name">.flaticon-businessman127</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-password_47021">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman75"></div>
+		<div class="class-name">.flaticon-businessman75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-graphic-of-stocks_46570">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman76"></div>
+		<div class="class-name">.flaticon-businessman76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-and-wall-clock_46577">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman77"></div>
+		<div class="class-name">.flaticon-businessman77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-with-circular-business-graphic_46586">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman78"></div>
+		<div class="class-name">.flaticon-businessman78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-saving-money-in-a-piggy-box_46588">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman79"></div>
+		<div class="class-name">.flaticon-businessman79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-on-cloud_46589">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman81"></div>
+		<div class="class-name">.flaticon-businessman81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman_46605">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman82"></div>
+		<div class="class-name">.flaticon-businessman82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-with-a-suitcase_46626">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman83"></div>
+		<div class="class-name">.flaticon-businessman83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-in-a-presentation-pointing-a-board-with-graphics_46652">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman84"></div>
+		<div class="class-name">.flaticon-businessman84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-in-business-graphic-of-ascending-bars_46657">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman85"></div>
+		<div class="class-name">.flaticon-businessman85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-tax-free-balloons-couple_46668">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman86"></div>
+		<div class="class-name">.flaticon-businessman86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-carrying-men-in-world-grid_46672">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman87"></div>
+		<div class="class-name">.flaticon-businessman87</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-running-fast-with-suitcase-in-right-hand_46688">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman90"></div>
+		<div class="class-name">.flaticon-businessman90</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-working-on-economy_46704">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman91"></div>
+		<div class="class-name">.flaticon-businessman91</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-talking-about-business-stocks-stats_46708">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman92"></div>
+		<div class="class-name">.flaticon-businessman92</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-with-unlock-symbol_46711">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman93"></div>
+		<div class="class-name">.flaticon-businessman93</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-pointing-to-his-right_46717">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman94"></div>
+		<div class="class-name">.flaticon-businessman94</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-standing-on-business-target-concentric-circles_46729">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman95"></div>
+		<div class="class-name">.flaticon-businessman95</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-improving-graphic_46730">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman96"></div>
+		<div class="class-name">.flaticon-businessman96</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-options-to-choose_46736">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman97"></div>
+		<div class="class-name">.flaticon-businessman97</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-ascending-one-step_46752">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman98"></div>
+		<div class="class-name">.flaticon-businessman98</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-presenter-presenting-business-stats-graphic-on-a-board_46761">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessman99"></div>
+		<div class="class-name">.flaticon-businessman99</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessman-clients-portfolio_46774">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen11"></div>
+		<div class="class-name">.flaticon-businessmen11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-exchange_46600">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen12"></div>
+		<div class="class-name">.flaticon-businessmen12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-behind-desk_46625">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen14"></div>
+		<div class="class-name">.flaticon-businessmen14</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-meeting-with-a-flag_46673">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen15"></div>
+		<div class="class-name">.flaticon-businessmen15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-with-graphics-of-business-stocks_46682">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen16"></div>
+		<div class="class-name">.flaticon-businessmen16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-salutation_46743">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen17"></div>
+		<div class="class-name">.flaticon-businessmen17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-perspective_46762">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen18"></div>
+		<div class="class-name">.flaticon-businessmen18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-team_46799">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen19"></div>
+		<div class="class-name">.flaticon-businessmen19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-hierarchy-with-a-leader_46803">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen20"></div>
+		<div class="class-name">.flaticon-businessmen20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-connections_46816">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen21"></div>
+		<div class="class-name">.flaticon-businessmen21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-exchange_46830">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen23"></div>
+		<div class="class-name">.flaticon-businessmen23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-hierarchical-graphic-of-males-human-resources_46880">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen24"></div>
+		<div class="class-name">.flaticon-businessmen24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-graphic-with-up-arrow_46941">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen25"></div>
+		<div class="class-name">.flaticon-businessmen25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-exchange_47027">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-businessmen26"></div>
+		<div class="class-name">.flaticon-businessmen26</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/businessmen-salutation-standing-one-in-front-the-other-and-one-carrying-a-suitcase_47028">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-child9"></div>
+		<div class="class-name">.flaticon-child9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/child-with-adult-man_46756">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-circular156"></div>
+		<div class="class-name">.flaticon-circular156</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/circular-graphic-of-money_46999">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-couple74"></div>
+		<div class="class-name">.flaticon-couple74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/couple-beside-home_46905">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-couple75"></div>
+		<div class="class-name">.flaticon-couple75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/couple-in-love_47013">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-couple76"></div>
+		<div class="class-name">.flaticon-couple76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/couple-of-male-persons-in-love_47029">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-dancing8"></div>
+		<div class="class-name">.flaticon-dancing8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/dancing-man-posture_46914">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-deal1"></div>
+		<div class="class-name">.flaticon-deal1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/deal_46734">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-descending7"></div>
+		<div class="class-name">.flaticon-descending7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/descending-money-arrow-graphic-and-a-businessman_46764">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-exercising1"></div>
+		<div class="class-name">.flaticon-exercising1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/exercising-posture_46716">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-factory15"></div>
+		<div class="class-name">.flaticon-factory15</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/factory-worker_46726">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family22"></div>
+		<div class="class-name">.flaticon-family22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-group-silhouette_46667">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family23"></div>
+		<div class="class-name">.flaticon-family23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-of-three_46834">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family24"></div>
+		<div class="class-name">.flaticon-family24</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-of-four-in-front-of-their-home_46855">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-family25"></div>
+		<div class="class-name">.flaticon-family25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/family-of-four-with-two-minors-and-two-adults_46947">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-father11"></div>
+		<div class="class-name">.flaticon-father11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/father-lifting-his-baby_46850">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-father12"></div>
+		<div class="class-name">.flaticon-father12</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/father-playing-with-son_46986">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-frontal20"></div>
+		<div class="class-name">.flaticon-frontal20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/frontal-standing-business-man-posture_46780">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-frontal21"></div>
+		<div class="class-name">.flaticon-frontal21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/frontal-stretching-yoga-posture-from-side-view_46957">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-golf23"></div>
+		<div class="class-name">.flaticon-golf23</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/golf-hole-and-flag_46634">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-graduate21"></div>
+		<div class="class-name">.flaticon-graduate21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/graduate-on-business-with-certificate_46821">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-graphics2"></div>
+		<div class="class-name">.flaticon-graphics2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/graphics_46583">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-group57"></div>
+		<div class="class-name">.flaticon-group57</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/group-of-men_46895">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-group58"></div>
+		<div class="class-name">.flaticon-group58</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/group-of-three-men-standing-side-by-side-hugging-each-other_47352">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-high16"></div>
+		<div class="class-name">.flaticon-high16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/high-five-between-two-businessmen_46948">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-homosexual"></div>
+		<div class="class-name">.flaticon-homosexual</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/homosexual-couple-of-two-men_47011">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human92"></div>
+		<div class="class-name">.flaticon-human92</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-exercise-posture_46680">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human93"></div>
+		<div class="class-name">.flaticon-human93</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-familiar-group-of-four_46701">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human94"></div>
+		<div class="class-name">.flaticon-human94</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-resources-for-business_46741">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human95"></div>
+		<div class="class-name">.flaticon-human95</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-resources-business-graphic_46826">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human96"></div>
+		<div class="class-name">.flaticon-human96</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-male-balanced-scale_46845">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-human97"></div>
+		<div class="class-name">.flaticon-human97</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/human-resources-symbol_46912">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-hurry"></div>
+		<div class="class-name">.flaticon-hurry</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/hurry-businessman_46767">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-incoming20"></div>
+		<div class="class-name">.flaticon-incoming20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/incoming-money_46873">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international16"></div>
+		<div class="class-name">.flaticon-international16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international-businessman-with-world-like-balloon_46723">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-international17"></div>
+		<div class="class-name">.flaticon-international17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/international-businessmen_47025">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-internet17"></div>
+		<div class="class-name">.flaticon-internet17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/internet-like-a-bridge-concept-for-a-man-sitting-with-a-laptop_46591">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-inverted10"></div>
+		<div class="class-name">.flaticon-inverted10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/inverted-exercise-man-posture_46970">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-inverted6"></div>
+		<div class="class-name">.flaticon-inverted6</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/inverted-man-posture-with-head-down-on-floor_46678">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-inverted7"></div>
+		<div class="class-name">.flaticon-inverted7</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/inverted-yoga-posture-of-a-man-with-flexed-legs_46724">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-inverted8"></div>
+		<div class="class-name">.flaticon-inverted8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/inverted-yoga-posture_46815">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-inverted9"></div>
+		<div class="class-name">.flaticon-inverted9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/inverted-circulation-yoga-posture-of-a-man_46868">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lecture2"></div>
+		<div class="class-name">.flaticon-lecture2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lecture_46981">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-love44"></div>
+		<div class="class-name">.flaticon-love44</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/love-with-couple_46977">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lying1"></div>
+		<div class="class-name">.flaticon-lying1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lying-relaxing-yoga-posture-of-a-man-from-side-view_46751">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lying2"></div>
+		<div class="class-name">.flaticon-lying2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lying-posture-of-excercise_46810">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lying3"></div>
+		<div class="class-name">.flaticon-lying3</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lying-man-posture-silhouette_46875">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-lying"></div>
+		<div class="class-name">.flaticon-lying</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/lying-man-silhouette_46617">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-magistrate"></div>
+		<div class="class-name">.flaticon-magistrate</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/magistrate-with-hammer_46919">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male212"></div>
+		<div class="class-name">.flaticon-male212</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-business-group-of-men_46623">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male213"></div>
+		<div class="class-name">.flaticon-male213</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-human-group_46888">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male214"></div>
+		<div class="class-name">.flaticon-male214</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-applicants-for-a-job_46917">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-male215"></div>
+		<div class="class-name">.flaticon-male215</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/male-ecological-class_46918">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-males4"></div>
+		<div class="class-name">.flaticon-males4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/males-friends-hug-side-by-side_46968">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man243"></div>
+		<div class="class-name">.flaticon-man243</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-business-graphic_46568">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man244"></div>
+		<div class="class-name">.flaticon-man244</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-and-cash-machine-from-side-view_46569">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man245"></div>
+		<div class="class-name">.flaticon-man245</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-yoga-posture_46571">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man246"></div>
+		<div class="class-name">.flaticon-man246</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-a-signal-of-labor-strike_46575">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man247"></div>
+		<div class="class-name">.flaticon-man247</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-child_46578">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man248"></div>
+		<div class="class-name">.flaticon-man248</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-beside-a-washing-machine-of-laundry_46581">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man249"></div>
+		<div class="class-name">.flaticon-man249</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-tax-percentage-signal_46587">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man251"></div>
+		<div class="class-name">.flaticon-man251</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-stacked-boxes-on-shopping-cart_46596">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man252"></div>
+		<div class="class-name">.flaticon-man252</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-practicing-exercise_46598">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man253"></div>
+		<div class="class-name">.flaticon-man253</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-under-the-shower-cleaning-his-head-from-side-view_46599">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man254"></div>
+		<div class="class-name">.flaticon-man254</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-improving-business-graphic-arrow-holding-it-up-for-ascendant-stock_46601">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man255"></div>
+		<div class="class-name">.flaticon-man255</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-running-on-treadmill-machine_46604">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man256"></div>
+		<div class="class-name">.flaticon-man256</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-yoga-posture-for-invert-blood-circulation_46606">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man257"></div>
+		<div class="class-name">.flaticon-man257</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-waking-up-on-morning-sitting-on-bed-stretching-his-arms_46609">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man259"></div>
+		<div class="class-name">.flaticon-man259</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-on-business-graphic_46612">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man260"></div>
+		<div class="class-name">.flaticon-man260</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-exercising_46615">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man261"></div>
+		<div class="class-name">.flaticon-man261</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-business-presentation-talking-about-money_46616">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man263"></div>
+		<div class="class-name">.flaticon-man263</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-silhouette-from-side-view-practicing-exercise-posture-sitting-with-extended-legs-and-arms-to-front_46631">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man264"></div>
+		<div class="class-name">.flaticon-man264</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-mobile-phone_46641">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man265"></div>
+		<div class="class-name">.flaticon-man265</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-silhouette_46650">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man266"></div>
+		<div class="class-name">.flaticon-man266</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-hugging-a-friend_46651">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man267"></div>
+		<div class="class-name">.flaticon-man267</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-presenting-a-partner-in-business-presentation_46671">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man269"></div>
+		<div class="class-name">.flaticon-man269</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-talking-on-business-presentation-behind-a-podium-with-a-mic_46675">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man270"></div>
+		<div class="class-name">.flaticon-man270</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-exercise-posture-from-side-view-with-rised-arms_46683">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man271"></div>
+		<div class="class-name">.flaticon-man271</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-yoga-posture-of-relaxation_46697">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man272"></div>
+		<div class="class-name">.flaticon-man272</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-yoga-posture-sitting-with-rised-arms-upon-the-head_46702">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man273"></div>
+		<div class="class-name">.flaticon-man273</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-posture-with-opened-arms-and-legs-to-both-sides_46709">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man274"></div>
+		<div class="class-name">.flaticon-man274</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-carrying-other-person-on-his-back_46719">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man275"></div>
+		<div class="class-name">.flaticon-man275</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-lifting-blank-billboard_46722">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man276"></div>
+		<div class="class-name">.flaticon-man276</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-yoga-asana-stretching-back_46727">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man277"></div>
+		<div class="class-name">.flaticon-man277</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-raised-arms-to-both-sides_46731">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man278"></div>
+		<div class="class-name">.flaticon-man278</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-white-board_46742">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man279"></div>
+		<div class="class-name">.flaticon-man279</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-business-graphic-of-improving-stats_46745">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man280"></div>
+		<div class="class-name">.flaticon-man280</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-of-business-with-a-tool_46747">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man281"></div>
+		<div class="class-name">.flaticon-man281</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-a-laptop_46759">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man282"></div>
+		<div class="class-name">.flaticon-man282</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-talking-by-speaker_46770">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man283"></div>
+		<div class="class-name">.flaticon-man283</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-with-extended-arms-to-sides_46772">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man285"></div>
+		<div class="class-name">.flaticon-man285</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-giftbox_46791">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man286"></div>
+		<div class="class-name">.flaticon-man286</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-talking-on-a-lecture-by-microphone_46802">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man287"></div>
+		<div class="class-name">.flaticon-man287</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-in-yoga-posture_46806">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man288"></div>
+		<div class="class-name">.flaticon-man288</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-sitting-in-front-of-a-table-eating-and-drinking-while-having-lunch_46812">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man289"></div>
+		<div class="class-name">.flaticon-man289</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-shopping-cart_46848">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man290"></div>
+		<div class="class-name">.flaticon-man290</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-white-signal-for-publicity_46858">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man291"></div>
+		<div class="class-name">.flaticon-man291</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-silhouette-with-raised-arms_46863">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man292"></div>
+		<div class="class-name">.flaticon-man292</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-beside-a-house_46866">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man293"></div>
+		<div class="class-name">.flaticon-man293</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-giving-a-flower-to-his-girlfriend-as-love-symbol-in-romantic-posture-on-his-knee_46867">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man294"></div>
+		<div class="class-name">.flaticon-man294</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-a-lock-padlock-signal_46870">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man295"></div>
+		<div class="class-name">.flaticon-man295</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-lying-on-gears_46871">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man296"></div>
+		<div class="class-name">.flaticon-man296</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-lying-sleeping-on-bed-while-alarm-clock-is-ringing_46882">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man297"></div>
+		<div class="class-name">.flaticon-man297</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-talking-to-male-audience-with-a-speaker_46885">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man298"></div>
+		<div class="class-name">.flaticon-man298</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-machine-circuit-symbol_46889">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man299"></div>
+		<div class="class-name">.flaticon-man299</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-blank-billboard_46894">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man300"></div>
+		<div class="class-name">.flaticon-man300</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-sitting-on-bed-waking-up-with-clock-alarm-sound_46898">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man301"></div>
+		<div class="class-name">.flaticon-man301</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-blank-publicity-space_46909">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man302"></div>
+		<div class="class-name">.flaticon-man302</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-calculator_46913">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man304"></div>
+		<div class="class-name">.flaticon-man304</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-and-auricular-phone_46931">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man305"></div>
+		<div class="class-name">.flaticon-man305</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-with-parabolic-antenna-tool_46942">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man306"></div>
+		<div class="class-name">.flaticon-man306</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-behind-blank-billboard_46944">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man307"></div>
+		<div class="class-name">.flaticon-man307</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-speaking-by-microphone-to-male-audience_46954">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man308"></div>
+		<div class="class-name">.flaticon-man308</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-exercising-on-a-stationery-bicycle_46958">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man309"></div>
+		<div class="class-name">.flaticon-man309</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-practicing-sportive-exercises_46962">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man310"></div>
+		<div class="class-name">.flaticon-man310</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-holding-a-bill-in-his-raised-right-hand_46964">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man311"></div>
+		<div class="class-name">.flaticon-man311</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-silhouette-on-yoga-posture_46965">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man312"></div>
+		<div class="class-name">.flaticon-man312</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-stretching-frontal-posture-from-side-view_46966">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man313"></div>
+		<div class="class-name">.flaticon-man313</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-on-sportive-posture_46967">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man314"></div>
+		<div class="class-name">.flaticon-man314</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-speaking-by-a-speaker_46976">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man315"></div>
+		<div class="class-name">.flaticon-man315</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-studying-with-a-laptop_46979">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man316"></div>
+		<div class="class-name">.flaticon-man316</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-certificate_46983">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man317"></div>
+		<div class="class-name">.flaticon-man317</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-shopping-cart_46993">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man318"></div>
+		<div class="class-name">.flaticon-man318</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-two-options-to-choose-between-yes-or-no_47002">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man319"></div>
+		<div class="class-name">.flaticon-man319</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-with-extended-arms-over-his-head_47006">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man320"></div>
+		<div class="class-name">.flaticon-man320</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-with-a-flag_47007">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man321"></div>
+		<div class="class-name">.flaticon-man321</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-beside-drawers-of-an-office_47008">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man322"></div>
+		<div class="class-name">.flaticon-man322</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-sleeping-on-bed_47016">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man323"></div>
+		<div class="class-name">.flaticon-man323</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-holding-an-umbrella-under-dollars-money-rain_47019">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man324"></div>
+		<div class="class-name">.flaticon-man324</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-standing-with-a-pencil_47023">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man325"></div>
+		<div class="class-name">.flaticon-man325</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man_47026">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-man326"></div>
+		<div class="class-name">.flaticon-man326</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/man-posture-silhouette-standing-with-raised-arms_47346">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-meditation1"></div>
+		<div class="class-name">.flaticon-meditation1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/meditation-yoga-posture-of-a-sitting-man_46827">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men16"></div>
+		<div class="class-name">.flaticon-men16</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-couple-sitting-on-a-table-talking-about-business_46607">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men17"></div>
+		<div class="class-name">.flaticon-men17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-holding-a-strike-signal_46660">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men18"></div>
+		<div class="class-name">.flaticon-men18</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-business-cycle-graphic_46663">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men19"></div>
+		<div class="class-name">.flaticon-men19</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-with-recycle-symbol_46677">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men20"></div>
+		<div class="class-name">.flaticon-men20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-with-up-and-down-arrows_46927">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-men21"></div>
+		<div class="class-name">.flaticon-men21</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/men-salutation-silhouette_46975">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-money107"></div>
+		<div class="class-name">.flaticon-money107</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/money-with-business-by-internet_46592">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-mother20"></div>
+		<div class="class-name">.flaticon-mother20</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/mother-walking-with-baby_46959">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-old47"></div>
+		<div class="class-name">.flaticon-old47</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/old-man-from-frontal-view-with-a-cane_46851">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-old48"></div>
+		<div class="class-name">.flaticon-old48</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/old-man-standing-with-a-cane_46936">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-online22"></div>
+		<div class="class-name">.flaticon-online22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/online-job-applicants_46718">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-posture"></div>
+		<div class="class-name">.flaticon-posture</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/posture-of-balance_46738">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-presenter"></div>
+		<div class="class-name">.flaticon-presenter</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/presenter-talking-about-people-on-a-screen_46757">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-prisoner"></div>
+		<div class="class-name">.flaticon-prisoner</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/prisoner-man-with-money-fetter-and-ball_47355">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-professor17"></div>
+		<div class="class-name">.flaticon-professor17</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/professor-teaching-about-world-to-students_46891">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-recycling9"></div>
+		<div class="class-name">.flaticon-recycling9</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/recycling-businessmen_46786">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-religious5"></div>
+		<div class="class-name">.flaticon-religious5</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/religious-man_46902">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-runner4"></div>
+		<div class="class-name">.flaticon-runner4</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/runner-silhouette_46989">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-safebox2"></div>
+		<div class="class-name">.flaticon-safebox2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/safebox_46681">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching30"></div>
+		<div class="class-name">.flaticon-searching30</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-people_46886">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-searching32"></div>
+		<div class="class-name">.flaticon-searching32</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/searching-a-businessman_46911">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-simple54"></div>
+		<div class="class-name">.flaticon-simple54</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/simple-balance-posture-of-a-man_46686">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sleepwalker"></div>
+		<div class="class-name">.flaticon-sleepwalker</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sleepwalker_46684">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-sleepy8"></div>
+		<div class="class-name">.flaticon-sleepy8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/sleepy-man-sitting-on-his-bed_46988">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-soccer37"></div>
+		<div class="class-name">.flaticon-soccer37</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/soccer-player-with-ball_46637">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing62"></div>
+		<div class="class-name">.flaticon-standing62</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-businessmen-perspective-with-right-arrow_46585">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing63"></div>
+		<div class="class-name">.flaticon-standing63</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-business-man-looking-through-binoculars-to-distance_46618">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing64"></div>
+		<div class="class-name">.flaticon-standing64</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-businessman-with-money-bills-around_46628">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing65"></div>
+		<div class="class-name">.flaticon-standing65</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-frontal-man_46636">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing66"></div>
+		<div class="class-name">.flaticon-standing66</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-businessman-with-rised-arm_46654">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing67"></div>
+		<div class="class-name">.flaticon-standing67</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-businessman-with-up-arrow_46655">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing68"></div>
+		<div class="class-name">.flaticon-standing68</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-yoga-posture-of-a-man-balancing-and-stretching_46706">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing69"></div>
+		<div class="class-name">.flaticon-standing69</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man_46721">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing70"></div>
+		<div class="class-name">.flaticon-standing70</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-with-hand-pointing-on-his-mouth-with-toothbrush_46793">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing71"></div>
+		<div class="class-name">.flaticon-standing71</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-businessman-thinking-with-his-right-hand-on-his-head_46808">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing72"></div>
+		<div class="class-name">.flaticon-standing72</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-balance-posture-stretching-right-leg-to-side_46811">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing73"></div>
+		<div class="class-name">.flaticon-standing73</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-frontal-businessman-with-tie_46814">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing74"></div>
+		<div class="class-name">.flaticon-standing74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-business-man-with-tie_46820">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing75"></div>
+		<div class="class-name">.flaticon-standing75</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-persons-salutation-talking-one-to-each-other_46833">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing76"></div>
+		<div class="class-name">.flaticon-standing76</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-with-right-hand-on-his-face_46842">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing77"></div>
+		<div class="class-name">.flaticon-standing77</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-business-man-with-a-tablet-on-hand_46859">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing78"></div>
+		<div class="class-name">.flaticon-standing78</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-in-praying-posture-of-hands-in-front-his-face_46861">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing79"></div>
+		<div class="class-name">.flaticon-standing79</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-holding-white-signal_46884">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing80"></div>
+		<div class="class-name">.flaticon-standing80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-business-man-with-tie-and-right-arm-raised_46897">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing81"></div>
+		<div class="class-name">.flaticon-standing81</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-silhouette-holding-a-disc_46946">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing82"></div>
+		<div class="class-name">.flaticon-standing82</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-holding-a-book_46987">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing83"></div>
+		<div class="class-name">.flaticon-standing83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-silhouette-lifting-dumbbells-weight_46990">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing84"></div>
+		<div class="class-name">.flaticon-standing84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-male-silhouette-with-raised-arms_46994">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing85"></div>
+		<div class="class-name">.flaticon-standing85</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man-with-tie-with-opened-arms-and-legs_47010">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-standing86"></div>
+		<div class="class-name">.flaticon-standing86</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/standing-man_47018">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stretching1"></div>
+		<div class="class-name">.flaticon-stretching1</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stretching-male-silhouette_46624">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-stretching2"></div>
+		<div class="class-name">.flaticon-stretching2</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/stretching-posture-for-back_46662">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-student56"></div>
+		<div class="class-name">.flaticon-student56</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/student-child-and-adult-professor_46647">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-swimmer8"></div>
+		<div class="class-name">.flaticon-swimmer8</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/swimmer-in-water_46956">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-tea13"></div>
+		<div class="class-name">.flaticon-tea13</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/tea-break_47015">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-team"></div>
+		<div class="class-name">.flaticon-team</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/team-of-males_46797">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-test22"></div>
+		<div class="class-name">.flaticon-test22</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/test-with-time-control-for-a-business-man_46621">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-three111"></div>
+		<div class="class-name">.flaticon-three111</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/three-businessmen_46576">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-three113"></div>
+		<div class="class-name">.flaticon-three113</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/three-men-on-podium_46800">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-three114"></div>
+		<div class="class-name">.flaticon-three114</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/three-men-and-one-up-arrow_46974">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-three115"></div>
+		<div class="class-name">.flaticon-three115</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/three-gears-of-configuration-tools_46997">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-triangle25"></div>
+		<div class="class-name">.flaticon-triangle25</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/triangle-of-business_46644">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two198"></div>
+		<div class="class-name">.flaticon-two198</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-men-couple_46627">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two200"></div>
+		<div class="class-name">.flaticon-two200</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-businessmen-in-meeting_46695">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two201"></div>
+		<div class="class-name">.flaticon-two201</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-men-side-by-side-in-a-hug-with-raised-arms_46732">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two202"></div>
+		<div class="class-name">.flaticon-two202</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-standing-businessmen-side-by-side_46768">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two203"></div>
+		<div class="class-name">.flaticon-two203</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-businessmen_46769">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two206"></div>
+		<div class="class-name">.flaticon-two206</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-male-friends-communication-standing-one-in-front-of-the-other_46831">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two207"></div>
+		<div class="class-name">.flaticon-two207</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-business-men-competing_46860">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two208"></div>
+		<div class="class-name">.flaticon-two208</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-businessmen-holding-a-flag_46935">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two209"></div>
+		<div class="class-name">.flaticon-two209</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-persons-sitting-back-with-back-in-symmetrical-posture_46949">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-two211"></div>
+		<div class="class-name">.flaticon-two211</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/two-businessmen-salutation_47349">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-up74"></div>
+		<div class="class-name">.flaticon-up74</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/up-arrow-of-money-incomes-and-business-man_46632">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world80"></div>
+		<div class="class-name">.flaticon-world80</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-international-targets-map-for-business_46593">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world83"></div>
+		<div class="class-name">.flaticon-world83</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-map-and-gears-symbols_46700">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-world84"></div>
+		<div class="class-name">.flaticon-world84</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/world-map-with-flags_46900">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yoga10"></div>
+		<div class="class-name">.flaticon-yoga10</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yoga-frontal-flexion-posture-silhouette-of-side-view_46801">Freepik</a></div></div><div class="glyph">
+		<div class="glyph-icon flaticon-yoga11"></div>
+		<div class="class-name">.flaticon-yoga11</div><div class="author-name">Author: <a href="http://www.flaticon.com/free-icon/yoga-sitting-posture-of-a-man_46835">Freepik</a></div></div></section>
+
+<section class="attribution">
+
+	<div class="usetitle">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.flaticon.com">flaticon.com</a>
+ under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a>. The authors are: <a href="http://www.freepik.com">Freepik</a>.</div><div class="usetitle">Copy the Attribution License:</div>
+
+<textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.flaticon.com&quot;&gt;flaticon.com&lt;/a&gt;
+ under &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0/&quot;&gt;CC BY&lt;/a&gt;. The authors are: &lt;a href=&quot;http://www.freepik.com&quot;&gt;Freepik&lt;/a&gt;.</textarea>
+
+</section>
+
+<section class="iconsuse">
+    	<div class="usetitle">Examples:</div>
+		<div class="image"><p>&lt;i class=&quot;flaticon-adult1&quot;&gt;&lt;/i&gt; <i class="flaticon-adult1"></i></p><p>&lt;i class=&quot;flaticon-adult2&quot;&gt;&lt;/i&gt; <i class="flaticon-adult2"></i></p><p>&lt;i class=&quot;flaticon-adult3&quot;&gt;&lt;/i&gt; <i class="flaticon-adult3"></i></p><p>&lt;i class=&quot;flaticon-adults&quot;&gt;&lt;/i&gt; <i class="flaticon-adults"></i></p><p>&lt;i class=&quot;flaticon-applicants&quot;&gt;&lt;/i&gt; <i class="flaticon-applicants"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-architect&quot;&gt;&lt;/span&gt; <span class="flaticon-architect"></span></p><p>&lt;span class=&quot;flaticon-ascending10&quot;&gt;&lt;/span&gt; <span class="flaticon-ascending10"></span></p><p>&lt;span class=&quot;flaticon-baby138&quot;&gt;&lt;/span&gt; <span class="flaticon-baby138"></span></p><p>&lt;span class=&quot;flaticon-balance5&quot;&gt;&lt;/span&gt; <span class="flaticon-balance5"></span></p><p>&lt;span class=&quot;flaticon-balanced&quot;&gt;&lt;/span&gt; <span class="flaticon-balanced"></span></p></div><div class="image"><p>&lt;span class=&quot;flaticon-boy38&quot;&gt;&lt;/span&gt; <span class="flaticon-boy38"></span></p><p>&lt;i class=&quot;flaticon-business103&quot;&gt;&lt;/i&gt; <i class="flaticon-business103"></i></p><p>&lt;i class=&quot;flaticon-business104&quot;&gt;&lt;/i&gt; <i class="flaticon-business104"></i></p><p>&lt;i class=&quot;flaticon-business105&quot;&gt;&lt;/i&gt; <i class="flaticon-business105"></i></p><p>&lt;i class=&quot;flaticon-business106&quot;&gt;&lt;/i&gt; <i class="flaticon-business106"></i></p></div><div class="image"><p>&lt;span class=&quot;flaticon-business107&quot;&gt;&lt;/span&gt; <span class="flaticon-business107"></span></p><p>&lt;span class=&quot;flaticon-business108&quot;&gt;&lt;/span&gt; <span class="flaticon-business108"></span></p><p>&lt;span class=&quot;flaticon-business109&quot;&gt;&lt;/span&gt; <span class="flaticon-business109"></span></p><p>&lt;span class=&quot;flaticon-business110&quot;&gt;&lt;/span&gt; <span class="flaticon-business110"></span></p><p>&lt;span class=&quot;flaticon-business111&quot;&gt;&lt;/span&gt; <span class="flaticon-business111"></span></p></div><div class="image"></div>
+</section>
+<div id="footer">
+    <div>Generated by <a href="http://www.flaticon.com">flaticon.com</a>
+    </div>
+</div>
+	</body>
+</html>

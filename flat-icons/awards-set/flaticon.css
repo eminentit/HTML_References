@@ -1,0 +1,64 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-achievement:before {
+	content: "\e000";
+}
+.flaticon-award37:before {
+	content: "\e001";
+}
+.flaticon-award38:before {
+	content: "\e002";
+}
+.flaticon-award39:before {
+	content: "\e003";
+}
+.flaticon-crown31:before {
+	content: "\e004";
+}
+.flaticon-diploma12:before {
+	content: "\e005";
+}
+.flaticon-flag44:before {
+	content: "\e006";
+}
+.flaticon-graduate23:before {
+	content: "\e007";
+}
+.flaticon-medal51:before {
+	content: "\e008";
+}
+.flaticon-ribbon48:before {
+	content: "\e009";
+}
+.flaticon-shield79:before {
+	content: "\e00a";
+}
+.flaticon-sportive39:before {
+	content: "\e00b";
+}
+.flaticon-star141:before {
+	content: "\e00c";
+}
+.flaticon-trophy47:before {
+	content: "\e00d";
+}
+.flaticon-wreath1:before {
+	content: "\e00e";
+}
+.flaticon-wreath2:before {
+	content: "\e00f";
+}

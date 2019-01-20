@@ -1,0 +1,256 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-beer15:before {
+	content: "\e000";
+}
+.flaticon-beer16:before {
+	content: "\e001";
+}
+.flaticon-big92:before {
+	content: "\e002";
+}
+.flaticon-big93:before {
+	content: "\e003";
+}
+.flaticon-black229:before {
+	content: "\e004";
+}
+.flaticon-bottle24:before {
+	content: "\e005";
+}
+.flaticon-bottle26:before {
+	content: "\e006";
+}
+.flaticon-box44:before {
+	content: "\e007";
+}
+.flaticon-brindis1:before {
+	content: "\e008";
+}
+.flaticon-brindis:before {
+	content: "\e009";
+}
+.flaticon-bubbles1:before {
+	content: "\e00a";
+}
+.flaticon-champagne2:before {
+	content: "\e00b";
+}
+.flaticon-cocktail13:before {
+	content: "\e00c";
+}
+.flaticon-cocktail14:before {
+	content: "\e00d";
+}
+.flaticon-cocktail15:before {
+	content: "\e00e";
+}
+.flaticon-cocktail16:before {
+	content: "\e00f";
+}
+.flaticon-cocktail17:before {
+	content: "\e010";
+}
+.flaticon-cocktail18:before {
+	content: "\e011";
+}
+.flaticon-cocktail19:before {
+	content: "\e012";
+}
+.flaticon-cocktail20:before {
+	content: "\e013";
+}
+.flaticon-coffee33:before {
+	content: "\e014";
+}
+.flaticon-coffee34:before {
+	content: "\e015";
+}
+.flaticon-coffee35:before {
+	content: "\e016";
+}
+.flaticon-coffee36:before {
+	content: "\e017";
+}
+.flaticon-coffee37:before {
+	content: "\e018";
+}
+.flaticon-coffee38:before {
+	content: "\e019";
+}
+.flaticon-cold8:before {
+	content: "\e01a";
+}
+.flaticon-commercial13:before {
+	content: "\e01b";
+}
+.flaticon-cool5:before {
+	content: "\e01c";
+}
+.flaticon-corkscrew1:before {
+	content: "\e01d";
+}
+.flaticon-corkscrew2:before {
+	content: "\e01e";
+}
+.flaticon-cup33:before {
+	content: "\e01f";
+}
+.flaticon-cup36:before {
+	content: "\e020";
+}
+.flaticon-dark45:before {
+	content: "\e021";
+}
+.flaticon-drink11:before {
+	content: "\e022";
+}
+.flaticon-drink12:before {
+	content: "\e023";
+}
+.flaticon-drink13:before {
+	content: "\e024";
+}
+.flaticon-drink14:before {
+	content: "\e025";
+}
+.flaticon-drink15:before {
+	content: "\e026";
+}
+.flaticon-drink16:before {
+	content: "\e027";
+}
+.flaticon-drink17:before {
+	content: "\e028";
+}
+.flaticon-drink18:before {
+	content: "\e029";
+}
+.flaticon-drink19:before {
+	content: "\e02a";
+}
+.flaticon-drink20:before {
+	content: "\e02b";
+}
+.flaticon-drink21:before {
+	content: "\e02c";
+}
+.flaticon-drink22:before {
+	content: "\e02d";
+}
+.flaticon-drink23:before {
+	content: "\e02e";
+}
+.flaticon-drink24:before {
+	content: "\e02f";
+}
+.flaticon-drink25:before {
+	content: "\e030";
+}
+.flaticon-drink26:before {
+	content: "\e031";
+}
+.flaticon-drink27:before {
+	content: "\e032";
+}
+.flaticon-drink29:before {
+	content: "\e033";
+}
+.flaticon-drink30:before {
+	content: "\e034";
+}
+.flaticon-drink31:before {
+	content: "\e035";
+}
+.flaticon-fresh8:before {
+	content: "\e036";
+}
+.flaticon-glass20:before {
+	content: "\e037";
+}
+.flaticon-glass21:before {
+	content: "\e038";
+}
+.flaticon-glass23:before {
+	content: "\e039";
+}
+.flaticon-hot50:before {
+	content: "\e03a";
+}
+.flaticon-hot51:before {
+	content: "\e03b";
+}
+.flaticon-hot52:before {
+	content: "\e03c";
+}
+.flaticon-metallic:before {
+	content: "\e03d";
+}
+.flaticon-milk8:before {
+	content: "\e03e";
+}
+.flaticon-soda5:before {
+	content: "\e03f";
+}
+.flaticon-soda6:before {
+	content: "\e040";
+}
+.flaticon-soda7:before {
+	content: "\e041";
+}
+.flaticon-tall13:before {
+	content: "\e042";
+}
+.flaticon-tall14:before {
+	content: "\e043";
+}
+.flaticon-tall15:before {
+	content: "\e044";
+}
+.flaticon-tea11:before {
+	content: "\e045";
+}
+.flaticon-teapot4:before {
+	content: "\e046";
+}
+.flaticon-transparent:before {
+	content: "\e047";
+}
+.flaticon-water38:before {
+	content: "\e048";
+}
+.flaticon-water39:before {
+	content: "\e049";
+}
+.flaticon-wine37:before {
+	content: "\e04a";
+}
+.flaticon-wine38:before {
+	content: "\e04b";
+}
+.flaticon-wine39:before {
+	content: "\e04c";
+}
+.flaticon-wine40:before {
+	content: "\e04d";
+}
+.flaticon-wine41:before {
+	content: "\e04e";
+}
+.flaticon-wine42:before {
+	content: "\e04f";
+}
